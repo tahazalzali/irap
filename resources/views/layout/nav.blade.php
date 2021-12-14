@@ -30,23 +30,34 @@ rel="stylesheet"
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Qui Sommes - Nous
+                <a class="nav-link  {{  request()->routeIs('home') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">
+                    <span style="{{request()->routeIs('home')? ' color: #EE7548;
+                        border-bottom: solid 3px;' : ''}}">Qui Sommes - Nous</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href={{ route('lnstitut') }}>L'lnstitut</a>
+                <a class="nav-link  {{  request()->routeIs('lnstitut') ? 'active' : '' }}  " href={{ route('lnstitut'
+                ) }}><span style="{{request()->routeIs('lnstitut') ? ' color: #82C1EB;
+                        border-bottom: solid 3px;': ''}}" > L'lnstitut</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href={{route('rayonnement')}}>Rayonnement</a>
+                <a class="nav-link  {{  request()->routeIs('rayonnement') ? 'active' : '' }} " href={{route('rayonnement')}}><span style="{{request()->routeIs('rayonnement') ? ' color: #EE7548;
+                        border-bottom: solid 3px;': ''}}"> Rayonnement</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href={{route('products')}}>Produits</a>
+                <a class="nav-link  {{  request()->routeIs('products') ? 'active' : '' }}" href={{route('products')}}>
+                     <span style="{{request()->routeIs('products') ? ' color: #EE7548;
+                        border-bottom: solid 3px;': ''}}"> Produits</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href={{route('blog')}}>Blog</a>
+                <a class="nav-link  {{  request()->routeIs('blog') ? 'active' : '' }}" href={{route('blog')}}>
+                     <span style="{{request()->routeIs('blog') ? ' color: #82C1EB;
+                        border-bottom: solid 3px;': ''}}"> Blog</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href={{ route('contact') }}>Contact</a>
+                <a class="nav-link  {{  request()->routeIs('contact') ? 'active' : '' }}" href={{ route('contact') }}>
+                     <span style="{{request()->routeIs('contact') ? ' color: #EE7548;
+                        border-bottom: solid 3px;': ''}}"> Contact</span></a>
               </li>
 
             </ul>
@@ -55,7 +66,7 @@ rel="stylesheet"
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
 
-                <a href="{{ route('donate') }}" style="color: white; background-color: #EE7548" class="btn">Donation</a>
+                <a href="{{ route('donate') }}" style="color: white; background-color: #EE7548" class="btn {{  request()->routeIs('donate') ? 'd-none' : '' }}">Donation </a>
 
           </div>
         </div>

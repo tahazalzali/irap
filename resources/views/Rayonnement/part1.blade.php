@@ -1,4 +1,6 @@
-<div >
+
+<div>
+
     {{-- IMG 1 --}}
     <div class="row" style="background-image: url('{{ asset('media/homeback1.jpg') }}'); height:100%">
         <div class="col-8 m-auto ">
@@ -103,6 +105,6 @@
 
 
 
-</div>
+
 
     {{-- END ALL --}}

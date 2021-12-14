@@ -33,7 +33,7 @@
 
                     <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"
                         required></textarea>
-                        <div class="pt-3 pb-3"><button class="btn btn-warning" type="submit">ENVOYER </button></div>
+                        <div class="pt-3 pb-3"><button class="btn " style="background-color: #EE7548" type="submit">FAIRE UN DON </button></div>
                 </div>
                 {{-- <div class="my-3">
                 <div class="loading">Loading</div>

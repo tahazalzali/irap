@@ -1,4 +1,4 @@
-<div class="row" style="background-image: url('{{ asset('media/dish1.jpg') }}'); height:200%;width:100%">
+<div class="row" style="background-image: url('{{ asset('media/dish1.jpg') }}'); min-height:700px;width:100%   background-repeat: no-repeat;">
     <div class="col-8 m-auto ">
         <h1 style="color: #212B59"> <strong>PRODUITS </strong> DE L'IRAP</h1>
 
