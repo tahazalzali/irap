@@ -1,4 +1,7 @@
-<div class="row" style="background-image: url('{{ asset('media/dish1.jpg') }}'); min-height:700px;width:100%   background-repeat: no-repeat;">
+<div class="row" style="background: url('{{ asset('media/dish1.jpg') }}')  no-repeat;; min-height:700px;width:100%
+ -webkit-background-size: cover;
+
+  background-size: cover; ">
     <div class="col-8 m-auto ">
         <h1 style="color: #212B59"> <strong>PRODUITS </strong> DE L'IRAP</h1>
 
@@ -52,7 +55,7 @@
 
 {{-- DIV 4 --}}
 
-<div class="row m-auto text-white pb-3" >
+<div class="row m-auto text-white pb-3">
 
     <div>
         <img src="{{ asset('media/kebbe.png') }}" class="w-100" alt="">

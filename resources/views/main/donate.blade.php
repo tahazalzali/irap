@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('content')
-<div>
+<div style="min-height: 500px;"class="pt-3">
     <div style="text-align: -webkit-center">
         <div class="mt-5 mt-lg-0">
           <div class="text-center"><h4>MERCI POUR VOTRE SUPPORT! </h4></div>

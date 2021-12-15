@@ -1,7 +1,13 @@
 <!-- Jumbotron -->
 @section('content')
     <!-- Background image -->
-
+    @if ($message=Session::get('success'))
+    <div class="container">
+        <div class="alert alert-primary" role="alert">
+          {{$message}}
+          </div>
+    </div>
+    @endif
     <div   class="bg-image d-flex justify-content-center  img-thumbnail img-fluid align-items-center" style="
         background-image: url('{{ asset('media/mainback 2 (2).jpg') }}');
         height: 100vh;

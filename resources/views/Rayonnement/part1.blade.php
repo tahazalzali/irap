@@ -1,8 +1,11 @@
-
 <div>
 
     {{-- IMG 1 --}}
-    <div class="row" style="background-image: url('{{ asset('media/homeback1.jpg') }}'); height:100%">
+    <div  class="row  mt-3">
+    <div  style="background : url('{{ asset('media/homeback1.jpg') }}')  no-repeat;  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; height:400px; ">
         <div class="col-8 m-auto ">
             <h1 style="color: #212B59"> <strong>UNE TRADITION:</strong></h1>
             <h1 style="color: #212B59">LE TRAVAIL LHONNEUR.
@@ -11,6 +14,7 @@
             <h1 style="color: #FFAD3A"><strong>LA COMMUNAUTE</strong> </h1>
         </div>
     </div>
+</div>
     {{-- END IMG 1 --}}
 
 
@@ -100,11 +104,66 @@
     {{-- DIV 5 --}}
 
 
+    <div class="row  m-5" style="background-color: #EE7548;">
+        <div class="col-8  " style=" text-align: -webkit-center;">
 
-    {{--END DIV 5 --}}
+            <div class="col-8 pt-5" style=" ">
+                <div style="height:100%; background-color: white;max-height: 400px; min-height: 400px;    text-align: -webkit-left;   ">
+                    <div>
+                        <h1 style="color: #212B59"> ACCUEIL </h1>
+                    </div>
+                    <div>
+                        <p style="color:#F7BAA4">Lors du pèlerinage d'un groupe de handicapés du
+                            Liban à Lourdes en 1960, deux jeunes filles
+                            promettent de vivre l'expérience d'une fraternité
+                            réelle solidaires sous un même toit.</p>
+                    </div>
+                    <div>
+                        <a href="" style="color: white; background-color:#EE7548" class="btn btn-lg m-1 p-3">VOIR
+                            L'ADRESSE</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="offset-1 col-3 mt-5 mb-5" style="background-color: #D8D8D8;height: 400px;">
+
+
+        </div>
+
+    </div>
+        {{-- END DIV 5 --}}
+
+
+
+    {{-- DIV  6 --}}
+    <div class="row p-5 m-5" style="background-color: #212B59">
+        <div class="col-10 m-auto ">
+            <div>
+                <h1 style="color: white"> SUD </h1>
+            </div>
+            <div style="height: 400px; background-color: #D8D8D8"></div>
+            <div style="height: 50px; background-color: white; line-height: 50px;">
+
+            </div>
+            <div class="mt-3">
+                <p style="color: white"><strong>Lorem Ipsum is simply dummy text of the printing and </strong> </p>
+            </div>
+            <div>
+                <p style="color:#9095AC">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an</p>
+            </div>
+            <div>
+                <a href="" style="background-color: white; color:#212B59" class="btn btn-lg m-1 p-3">VOIR L'ADRESSE</a>
+            </div>
+        </div>
+    </div>
+    {{-- END DIV 6--}}
 
 
 
 
-
-    {{-- END ALL --}}
+        {{-- END ALL --}}
