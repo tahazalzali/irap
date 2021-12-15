@@ -20,7 +20,7 @@ href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swa
 rel="stylesheet"
 />
 </head>
-<header class="pb-4 mb-2">
+<header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <img src="{{asset("media/logo-home (2).png")}}" style="max-height: 50px; max-width: 60px;" class="navbar-brand w-100 img-thumbnai img-fluid " href="#"> </a>
@@ -55,18 +55,19 @@ rel="stylesheet"
                         border-bottom: solid 3px;': ''}}"> Blog</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  {{  request()->routeIs('contact') ? 'active' : '' }}" href={{ route('contact') }}>
-                     <span style="{{request()->routeIs('contact') ? ' color: #EE7548;
+                <a class="nav-link  {{  request()->routeIs('contact.index') ? 'active' : '' }}" href={{ route('contact.index') }}>
+                     <span style="{{request()->routeIs('contact.index') ? ' color: #EE7548;
                         border-bottom: solid 3px;': ''}}"> Contact</span></a>
               </li>
 
             </ul>
-            <form class="d-flex">
+            {{-- <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form> --}}
+            <i class="fas fa-search p-3"></i>
 
-                <a href="{{ route('donate') }}" style="color: white; background-color: #EE7548" class="btn {{  request()->routeIs('donate') ? 'd-none' : '' }}">Donation </a>
+                <a href="{{ route('donate.index') }}" style="color: white; background-color: #EE7548;" class="btn  {{  request()->routeIs('donate.index') ? 'd-none' : '' }} ">Donation </a>
 
           </div>
         </div>

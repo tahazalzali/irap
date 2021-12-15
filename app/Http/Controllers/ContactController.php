@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
-use App\Models\Donation;
-class DonationController extends Controller
+
+class ContactController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,7 @@ class DonationController extends Controller
      */
     public function index()
     {
-        return view('main.donate');
+       return view('main.contact');
     }
 
     /**
@@ -32,28 +33,25 @@ class DonationController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    function store(Request $request)
+    public function store(Request $request)
     {
-       $request->validate([
-           'name'=>'required',
-           'lastname'=>'required',
+        $request->validate([
+            "name"=>"required",
+            "lastname"=>"required",
+            "subject"=>"required",
 
-             'amount' => 'required|numeric',
+        ]);
+        $contact=Contact::create($request->all());
+         return redirect()->route('contact.index')->with('success','Contact created successfully');
+    }
 
-       ]);
-
-       $donation= Donation::create($request->all());
-       return redirect()->route('home')->with('success','Donation created successfully');
-
-
- }
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Contact  $contact
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Contact $contact)
     {
         //
     }
@@ -61,10 +59,10 @@ class DonationController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Contact  $contact
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Contact $contact)
     {
         //
     }
@@ -73,10 +71,10 @@ class DonationController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Contact  $contact
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Contact $contact)
     {
         //
     }
@@ -84,10 +82,10 @@ class DonationController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Contact  $contact
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Contact $contact)
     {
         //
     }

@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\DonationController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,13 +22,11 @@ Route::get('/home', function () {
     return view('main.index');
 })->name('home');
 
-Route::get('/contact', function () {
-    return view('main.contact');
-})->name('contact');
 
-Route::get('/donate', function () {
-    return view('main.donate');
-})->name('donate');
+
+Route::resource('/donate','App\Http\Controllers\DonationController')->name('donate','donate');
+Route::resource('/contact','App\Http\Controllers\ContactController');
+
 Route::get('/blog', function () {
     return view('blog');
 })->name('blog');

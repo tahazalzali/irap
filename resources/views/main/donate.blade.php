@@ -4,9 +4,10 @@
     <div style="text-align: -webkit-center">
         <div class="mt-5 mt-lg-0">
           <div class="text-center"><h4>MERCI POUR VOTRE SUPPORT! </h4></div>
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form m-auto row">
+            <form action="{{route('donate.store')}}"method="post" role="form" class="php-email-form m-auto row">
                 @csrf
-                @method('POST')
+
+                {{ method_field('POST') }}
                 <div class="row col-md-6">
                     <div class="row form-group  mb-3">
                         <label style="text-align: initial;"  for="name">Nom</label>
@@ -15,16 +16,16 @@
                     </div>
                     <br>
                     <div class="row form-group mt-3 mt-md-0">
-                        <label style="text-align: initial;"  for="email"> Prénom</label>
+                        <label style="text-align: initial;"  for="prnom"> Prénom</label>
 
-                        <input type="email" class="form-control" name="email" id="email"
-                            placeholder="Your Email" required>
+                        <input type="text" class="form-control" name="lastname" id="prnom"
+                            placeholder="Your prnom" required>
                     </div>
                     <div class=" row form-group mt-3">
-                        <label style="text-align: initial;"  for="subject">Montant de Donation /$</label>
+                        <label style="text-align: initial;"  for="daonate">Montant de Donation /$</label>
 
-                        <input type="text" class="form-control" name="subject" id="subject"
-                            placeholder="Subject" required>
+                        <input type="number" class="form-control" name="amount" id="daonate"
+                            placeholder="daonate" >
                     </div>
                 </div>
 
@@ -33,7 +34,7 @@
 
                     <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"
                         required></textarea>
-                        <div class="pt-3 pb-3"><button class="btn " style="background-color: #EE7548" type="submit">FAIRE UN DON </button></div>
+                        <div class="pt-3 pb-3"><button  class="btn " style="background-color: #EE7548" type="submit">FAIRE UN DON </button></div>
                 </div>
                 {{-- <div class="my-3">
                 <div class="loading">Loading</div>
