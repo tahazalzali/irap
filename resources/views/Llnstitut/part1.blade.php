@@ -2,14 +2,14 @@
     <div class="col-12 col-sm-12 col-md-12">
         <!-- Background image -->
         <div class="bg-image d-flex justify-content-center img-fluid align-items-center" style="
-            background-image: url('{{ asset('media/homeback1.jpg') }}');
+            background-image: url('{{ asset('media/products/Mask Group 21.png') }}');
             height: 100vh;
             position: relative;
             display:inline-block;
             max-width:100%;
           ">
             <h1 class="text-white" style="font-size:4vw">LINSTITUT DERÉÉDUCATIÓN</h1>
-            <div>
+            <div class="mb-5">
                 <p style="
           position: absolute;
           color: white;

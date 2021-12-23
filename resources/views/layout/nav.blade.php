@@ -23,7 +23,7 @@ rel="stylesheet"
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <img src="{{asset("media/logo-home (2).png")}}" style="max-height: 50px; max-width: 60px;" class="navbar-brand w-100 img-thumbnai img-fluid " href="#"> </a>
+          <img src="{{asset("media/products/Group 94.png")}}" style="max-height: 75px; max-width: 50px;" class="navbar-brand w-100 img-thumbnai img-fluid " href="#"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

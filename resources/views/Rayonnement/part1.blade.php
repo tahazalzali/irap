@@ -1,20 +1,25 @@
 <div>
 
     {{-- IMG 1 --}}
-    <div  class="row  mt-3">
-    <div  style="background : url('{{ asset('media/homeback1.jpg') }}')  no-repeat;  -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; height:400px; ">
-        <div class="col-8 m-auto ">
-            <h1 style="color: #212B59"> <strong>UNE TRADITION:</strong></h1>
-            <h1 style="color: #212B59">LE TRAVAIL LHONNEUR.
-                TRAVAILLER POUR VIVRE,
-                AVEC ET POURR </h1>
-            <h1 style="color: #FFAD3A"><strong>LA COMMUNAUTE</strong> </h1>
+    <div class="row" style="background: url('{{ asset('media/products/Mask Group 21.png') }}') no-repeat; min-height:700px;width:100%
+    -webkit-background-size: cover;
+
+     background-size: cover; ">
+        <div class="col-8 m-auto   ">
+            <h1 style="color: #212B59;   font-size: 55px; "> <strong>Une tradition:
+
+                </strong>
+            </h1>
+            <h1 style="  font-size: 55px;"> Le travail à l’honneur.</h1>
+            <h1 style="  font-size: 55px;">
+                Travailler pour</h1>
+                <h1 style="  font-size: 55px;">
+                    avec et pour
+                </h1>
+
+            <h1 style="color: #EE7548;  font-size: 55px;">la communauté</h1>
         </div>
     </div>
-</div>
     {{-- END IMG 1 --}}
 
 
@@ -51,8 +56,8 @@
 
 
     {{-- DIV 3 --}}
-    <div class="row p-5 m-5">
-        <div class="col-10 m-auto ">
+    <div class="row container m-auto">
+        <div class="col-12 col-sm-10 m-auto ">
             <div>
                 <h1 style="color: #212B59"> ATELIER </h1>
             </div>
@@ -76,8 +81,8 @@
     {{-- END DIV 3 --}}
 
     {{-- DIV 4 --}}
-    <div class="row p-5 m-5" style="background-color: #EE7548">
-        <div class="col-10 m-auto ">
+    <div class="row container m-auto" style="background-color: #EE7548">
+        <div class="col-12 col-sm-10 m-auto ">
             <div>
                 <h1 style="color: #212B59"> HDF </h1>
             </div>
@@ -104,11 +109,12 @@
     {{-- DIV 5 --}}
 
 
-    <div class="row  m-5" style="background-color: #EE7548;">
-        <div class="col-8  " style=" text-align: -webkit-center;">
+    <div class="row  container mt-5 m-auto" style="background-color: #EE7548;">
+        <div class="col-12 col-sm-8  " style=" text-align: -webkit-center;">
 
-            <div class="col-8 pt-5" style=" ">
-                <div style="height:100%; background-color: white;max-height: 400px; min-height: 400px;    text-align: -webkit-left;   ">
+            <div class="col-12 col-sm-8 pt-5" style=" ">
+                <div
+                    style="height:100%; background-color: white;max-height: 400px; min-height: 400px;    text-align: -webkit-left;   ">
                     <div>
                         <h1 style="color: #212B59"> ACCUEIL </h1>
                     </div>
@@ -128,19 +134,19 @@
 
 
         </div>
-        <div class="offset-1 col-3 mt-5 mb-5" style="background-color: #D8D8D8;height: 400px;">
+        <div class="offset-1 col-9  col-sm-3 mt-5 mb-5" style="background-color: #D8D8D8;height: 400px;">
 
 
         </div>
 
     </div>
-        {{-- END DIV 5 --}}
+    {{-- END DIV 5 --}}
 
 
 
     {{-- DIV  6 --}}
-    <div class="row p-5 m-5" style="background-color: #212B59">
-        <div class="col-10 m-auto ">
+    <div class="row container mt-5 m-auto" style="background-color: #212B59">
+        <div class="col-12 col-sm-10 m-auto ">
             <div>
                 <h1 style="color: white"> SUD </h1>
             </div>
@@ -161,9 +167,9 @@
             </div>
         </div>
     </div>
-    {{-- END DIV 6--}}
+    {{-- END DIV 6 --}}
 
 
 
 
-        {{-- END ALL --}}
+    {{-- END ALL --}}

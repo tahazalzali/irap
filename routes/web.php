@@ -42,6 +42,15 @@ Route::get('/products', function () {
     return view('products.index');
 })->name('products');
 
+Route::get('/product', function () {
+    return view('products.product');
+})->name('product');
+
 Route::get('/aritsanat', function () {
     return view('products.artisanat');
 })->name('products.artisanat');
+
+Route::get('/education', function () {
+    return view('Llnstitut.eductaion');
+})->name('Llnstitut.eductaion');
+

@@ -1,11 +1,11 @@
-<div class="row" style="background: url('{{ asset('media/dish1.jpg') }}')  no-repeat;; min-height:700px;width:100%
+<div class="row" style="background: url('{{ asset('media/products/Rectangle 54.png') }}') no-repeat , url('{{ asset('media/products/Mask Group 12.png') }}') no-repeat; min-height:700px;width:100%
  -webkit-background-size: cover;
 
   background-size: cover; ">
-    <div class="col-8 m-auto ">
-        <h1 style="color: #212B59"> <strong>PRODUITS </strong> DE L'IRAP</h1>
+    <div class="col-8 m-auto text-center ">
+        <h1 style="color: #ffffff"> <strong>PRODUITS </strong> DE L'IRAP</h1>
 
-        <p>Lors du pèlerinage d'un groupe de handicapés du Liban à Lourdes en 1960, deux jeunes
+        <p class="text-white">Lors du pèlerinage d'un groupe de handicapés du Liban à Lourdes en 1960, deux jeunes
             flles promettent de vivre l'expérience d'une fraternité réelle solidaires sous un même toit.
             Laventure prend naissance sous l'oeil vigilant d'une mère incomparable : la vierge Marie.
             Dès le premier jour, tout est placé sous le signe du partage, et cela continue</p>

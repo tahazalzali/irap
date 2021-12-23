@@ -54,10 +54,10 @@
             </div>
 
 
-            <div class="m-5 p-2">
+            <div class="ml-5 mr-3 mt-5 mb-5 p-2">
                 <div>
                     <h5 style="color: #C8C8C8;   text-align: center">
-                        <label style="color: #EE7548"> a)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <label style="color: #EE7548" > a)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                             Un service d'éducation précoce </label> de l'enfant sourd qui prend en charge l'enfant et
                         ses
                         parents ahn de mettre en route la communication avec l'enfant et de le préparer à la
