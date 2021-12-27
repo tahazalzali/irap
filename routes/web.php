@@ -18,9 +18,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
-    return view('main.index');
+Route::get('/home',function(){
+return view('HOME.index');
 })->name('home');
+
+Route::get('/quisommes', function () {
+    return view('main.index');
+})->name('quisommes');
 
 
 

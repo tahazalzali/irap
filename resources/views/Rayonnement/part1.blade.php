@@ -6,18 +6,18 @@
 
      background-size: cover; ">
         <div class="col-8 m-auto   ">
-            <h1 style="color: #212B59;   font-size: 55px; "> <strong>Une tradition:
+            <h1 style="color: #212B59;  "> <strong>Une tradition:
 
                 </strong>
             </h1>
-            <h1 style="  font-size: 55px;"> Le travail à l’honneur.</h1>
-            <h1 style="  font-size: 55px;">
+            <h1> Le travail à l’honneur.</h1>
+            <h1>
                 Travailler pour</h1>
-                <h1 style="  font-size: 55px;">
+                <h1>
                     avec et pour
                 </h1>
 
-            <h1 style="color: #EE7548;  font-size: 55px;">la communauté</h1>
+            <h1 style="color: #EE7548;">la communauté</h1>
         </div>
     </div>
     {{-- END IMG 1 --}}
@@ -25,8 +25,8 @@
 
 
     {{-- IMG 2 --}}
-    <div class="row"
-        style="background-image: url('{{ asset('media/blueback (2).png') }}'); height:100%;     text-align: -webkit-center; ">
+    <div class="row p-5"
+        style="background-image: url('{{ asset('media/blueback (2).png') }}');   height: 400px;     text-align: -webkit-center; ">
         <div class="col-9 m-auto ">
             <h1 style="color: white"> <strong>RAISON D'ÉTRE </strong></h1>
             <h1 style="color: white">DES ATELIERS

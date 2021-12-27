@@ -22,8 +22,7 @@
             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                 <div class="card card-blog">
                     <div class="card-img " style="text-align: center;">
-                        <a href="https://tahazalzali.github.io/fitness/" target="_blank"><img src="./media/Fitness.png"
-                                style="max-height: 200px; width: 80%;" alt="" class="img-fluid"></a>
+
                     </div>
                     <div class="card-body">
                         <div class="card-category-box">
@@ -61,8 +60,7 @@
                  <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                     <div class="card card-blog">
                         <div class="card-img " style="text-align: center;">
-                            <a href="https://tahazalzali.github.io/fitness/" target="_blank"><img src="./media/Fitness.png"
-                                    style="max-height: 200px; width: 80%;" alt="" class="img-fluid"></a>
+
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
@@ -104,8 +102,7 @@
                  <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                     <div class="card card-blog">
                         <div class="card-img " style="text-align: center;">
-                            <a href="https://tahazalzali.github.io/fitness/" target="_blank"><img src="./media/Fitness.png"
-                                    style="max-height: 200px; width: 80%;" alt="" class="img-fluid"></a>
+
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
@@ -148,8 +145,7 @@
                  <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                     <div class="card card-blog">
                         <div class="card-img " style="text-align: center;">
-                            <a href="https://tahazalzali.github.io/fitness/" target="_blank"><img src="./media/Fitness.png"
-                                    style="max-height: 200px; width: 80%;" alt="" class="img-fluid"></a>
+
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
@@ -188,8 +184,7 @@
      <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                  <div class="card card-blog">
             <div class="card-img " style="text-align: center;">
-                <a href="https://tahazalzali.github.io/fitness/" target="_blank"><img src="./media/Fitness.png"
-                        style="max-height: 200px; width: 80%;" alt="" class="img-fluid"></a>
+             
             </div>
             <div class="card-body">
                 <div class="card-category-box">
@@ -233,8 +228,7 @@
             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                 <div class="card card-blog">
                     <div class="card-img " style="text-align: center;">
-                        <a href="https://tahazalzali.github.io/fitness/" target="_blank"><img src="./media/Fitness.png"
-                                style="max-height: 200px; width: 80%;" alt="" class="img-fluid"></a>
+
                     </div>
                     <div class="card-body">
                         <div class="card-category-box">

@@ -1,5 +1,10 @@
 @include('layout.nav')
+@section('css')
+@yield('css')
 @yield('content')
 @yield('content2')
 @yield('content3')
 @include('layout.footer')
+@section('js')
+@yield('js')
+@endsection

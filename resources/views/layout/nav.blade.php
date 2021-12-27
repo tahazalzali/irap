@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Irap</title>
     {{-- Bootstrap --}}
+  @section('css')
+  @endsection
+
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
      rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
      crossorigin="anonymous">
@@ -19,19 +24,20 @@ rel="stylesheet"
 href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
 rel="stylesheet"
 />
+
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <img src="{{asset("media/products/Group 94.png")}}" style="max-height: 75px; max-width: 50px;" class="navbar-brand w-100 img-thumbnai img-fluid " href="#"> </a>
+         <a href="{{route('home')}}"> <img src="{{asset("media/products/Group 94.png")}}" style="max-height: 75px; max-width: 50px;" class="navbar-brand w-100 img-thumbnai img-fluid " > </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link  {{  request()->routeIs('home') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">
-                    <span style="{{request()->routeIs('home')? ' color: #EE7548;
+                <a class="nav-link  {{  request()->routeIs('quisommes') ? 'active' : '' }}" aria-current="page" href="{{ route('quisommes') }}">
+                    <span style="{{request()->routeIs('quisommes')? ' color: #EE7548;
                         border-bottom: solid 3px;' : ''}}">Qui Sommes - Nous</span>
                 </a>
               </li>

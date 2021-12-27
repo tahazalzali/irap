@@ -27,7 +27,7 @@
                             <h6 class="category">Blog title </h6>
                         </div>
                     </div>
-                    <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
+                    <h3 class="card-title" style="z-index: auto;"></h3>
                     <p class="card-description">
                     <h1>Blog details</h1>
                     </p>
@@ -57,7 +57,7 @@
              <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                 <div class="card card-blog">
                     <div class="card-img " style="text-align: center;">
-                      
+
                     </div>
                     <div class="card-body">
                         <div class="card-category-box">
@@ -65,7 +65,7 @@
                                 <h6 class="category">Blog title </h6>
                             </div>
                         </div>
-                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
+                        <h3 class="card-title" style="z-index: auto;"></h3>
                         <p class="card-description">
                         <h1>Blog details</h1>
                         </p>
@@ -99,7 +99,7 @@
              <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                 <div class="card card-blog">
                     <div class="card-img " style="text-align: center;">
-                      
+
                     </div>
                     <div class="card-body">
                         <div class="card-category-box">
@@ -107,7 +107,7 @@
                                 <h6 class="category">Blog title </h6>
                             </div>
                         </div>
-                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
+                        <h3 class="card-title" style="z-index: auto;"></h3>
                         <p class="card-description">
                         <h1>Blog details</h1>
                         </p>
@@ -142,7 +142,7 @@
              <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                 <div class="card card-blog">
                     <div class="card-img " style="text-align: center;">
-                      
+
                     </div>
                     <div class="card-body">
                         <div class="card-category-box">
@@ -150,7 +150,7 @@
                                 <h6 class="category">Blog title </h6>
                             </div>
                         </div>
-                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
+                        <h3 class="card-title" style="z-index: auto;"></h3>
                         <p class="card-description">
                         <h1>Blog details</h1>
                         </p>
@@ -190,7 +190,7 @@
                     <h6 class="category">Blog title </h6>
                 </div>
             </div>
-            <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
+            <h3 class="card-title" style="z-index: auto;"></h3>
             <p class="card-description">
             <h1>Blog details</h1>
             </p>
@@ -235,7 +235,7 @@
                             <h6 class="category">Blog title </h6>
                         </div>
                     </div>
-                    <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
+                    <h3 class="card-title" style="z-index: auto;"></h3>
                     <p class="card-description">
                     <h1>Blog details</h1>
                     </p>
