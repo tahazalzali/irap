@@ -10,7 +10,13 @@
  @include('HOME.part1')
 
 @endsection
+
+@section('content2')
+ @include('HOME.part2')
+
+@endsection
 @section('content3')
+
 @include('HOME.part3')
 @endsection
 

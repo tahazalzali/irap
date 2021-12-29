@@ -28,17 +28,20 @@
         <!-- Product Div -->
         <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
             <div class="card card-blog">
-
-                <div class="card-img " style="text-align: center; min-height: 350px">
-                    <img src="{{asset('media/kebbe.png')}}" class="w-100 "i >
-
-                </div>
-
                 <div class="card-body">
+                <div class="card-img " style="text-align: center; min-height: 350px">
+                    <img src="{{asset('media/home/2.png')}}" class="w-100 "/>
 
-                    <div class="card-body d-flex ">
-                        <div class="post-author  w-100" style="text-align: -webkit-center;">
+
+
+
+
+
+
+
+
                             <div  class="w-75" >
+
                                 <div style="position: absolute;
                                 width: 100%;
                                 height: 110px;
@@ -49,7 +52,6 @@
 
                                 </div>
                             </div>
-                        </div>
 
                     </div>
                 </div>
@@ -233,7 +235,7 @@
         <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
             <div class="card card-blog">
                 <div class="card-img " style="text-align: center;">
-                   
+
                 </div>
                 <div class="card-body">
                     <div class="card-category-box">

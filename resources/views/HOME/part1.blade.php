@@ -20,28 +20,37 @@
 
 
 {{-- DIV 2 --}}
+<style>
+ .box {
+        padding: 5px;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+    }
+
+
+</style>
 
 
 <div class="row container m-auto ">
 
 
 
-    <div class="col-12 col-sm-6 " style="display: inline-block;">
-        <div style="position: absolute">
-            <div class="post-author  w-100" style="text-align: -webkit-center;">
-                <div  class="w-75" >
-                    <div style="position: relative;" >
-                    <img src="{{ asset('media/home/Mask Group 1.png') }}" class="w-100" style="width: 100% " alt="">
-                </div>
-                    <div style="position: relative;
-                    width: 100%;
+    <div class="col-12 col-sm-6 text-center" style="display: inline-block; position: relative;">
+        <div >
+            <section class="container col-12" style="position: relative; min-height: 300px">
 
-                  background-color:#212B59" alt="" class=" img-fluid w-75">
-                    <h2 class="text-white">1960</h2>
-                    <p>Fraternité des malades du Liban</p>
-                    </div>
+                <div class="box " style="z-index:0; top:10px; left: 0px; height: 200px;width:300px;">
+                     <img src="{{ asset('media/home/Mask Group 1.png') }}" class="w-100" alt=""></div>
+                <div class="box row col-12" style="z-index:1; top:100px; height: 200px;width:250px; left:120px;background-color:#FFAD3A">
+                    <div class="col-12">
+                    <h1 style="color: #212B59">
+                    “</h1>
+
+                    <p class="text-white">Option de foi, Vie de famille, Service du handicapé, du marginalisé, du plus démuni, sans aucune discrimination. </p>
                 </div>
-            </div>
+                </div>
+            </section>
         </div>
 
 
@@ -63,4 +72,14 @@
     </div>
 </div>
 
-{{-- END DIV 2 --}}
+{{-- END DIV 2 --}}]
+
+
+{{-- DIV 3 --}}
+<div class="row  m-auto " style="min-height: 200px">
+    <div>
+     <div>
+         <img src="{{ asset('media/home/Group 92.png') }}" class="w-100  img-fluid" alt="">
+     </div>
+    </div>
+</div>

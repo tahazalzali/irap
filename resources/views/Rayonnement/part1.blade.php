@@ -1,4 +1,4 @@
-<div>
+<div style="background-image: url('asset('media/ray/Path 34.png')');">
 
     {{-- IMG 1 --}}
     <div class="row" style="background: url('{{ asset('media/products/Mask Group 21.png') }}') no-repeat; min-height:700px;width:100%
@@ -13,9 +13,9 @@
             <h1> Le travail à l’honneur.</h1>
             <h1>
                 Travailler pour</h1>
-                <h1>
-                    avec et pour
-                </h1>
+            <h1>
+                avec et pour
+            </h1>
 
             <h1 style="color: #EE7548;">la communauté</h1>
         </div>
@@ -25,29 +25,30 @@
 
 
     {{-- IMG 2 --}}
-    <div class="row p-5"
-        style="background-image: url('{{ asset('media/blueback (2).png') }}');   height: 400px;     text-align: -webkit-center; ">
-        <div class="col-9 m-auto ">
-            <h1 style="color: white"> <strong>RAISON D'ÉTRE </strong></h1>
-            <h1 style="color: white">DES ATELIERS
-                AVEC ET POURR </h1>
-            <p style="color: #9095AC">
-                Une initiative, dès 1960, de volontaires enthousiastes: Participer, par le don du
-                temps et de l'effort au financement de l'oeuvre naissante. Aider et soutenir les
-                personnes handicapées à réaliser des travaux et des ventes.
-                C'est aussi un service dans la communauté naissante les ateliers sont conçus
-                comme des lieux d'accueil, des lieux de formation ainsi que des lieux d'entraide
-                matérielle.
-                En 1968, les ateliers déménagent à Ain-Aar dans le Metn et se spécialisent dans les
-                travaux manuels et d'artisanat.
-                Avec l'éclatement des conflits armés en 1975, les ateliers se diversifient encore et
-                essayent de parer aux besoins les plus pressants de l'environnement humain le plus
-                direct de l'IRAP:cas sociaux.. personnes démunies... familles sans ressources...
-                communautés en détresse.. en 1978 les ateliers alimentaires: Pâtisserie et cuisine
-                de spécialitės libanaises font surface
-                Les ateliers continuent à être spécialement conçus pour des personnes à besoins
-                spéciaux qui ne peuvent pas s'insérer dans des structures professionnelles
-                habituelles ou ordinaires. Ce sont des lieux de travail protégés. lIs ont commencé et
+    <div class="row p-5" style="background: url('{{ asset('media/blueback (2).png') }}') ; min-height:700px;width:100%
+    -webkit-background-size: cover;
+
+     background-size: cover; ">
+        <div class="col-8 m-auto text-center ">
+            <h1 style="color: #ffffff"> <strong>Raison d’être </strong> des ateliers</h1>
+
+            <p class="text-white">Une initiative, dès 1960, de volontaires enthousiastes: Participer, par le don du
+                temps et de l’effort au financement de l’œuvre naissante. Aider et soutenir les personnes handicapées à
+                réaliser des travaux et des ventes.
+                C’est aussi un service dans la communauté naissante : les ateliers sont conçus comme des lieux
+                d’accueil, des lieux de formation ainsi que des lieux d’entraide matérielle.
+                En 1968, les ateliers déménagent à Ain-Aar dans le Metn et se spécialisent dans les travaux manuels et
+                d’artisanat.
+                Avec l’éclatement des conflits armés en 1975, les ateliers se diversifient encore et essayent de parer
+                aux besoins les plus pressants de l’environnement humain le plus direct de l’IRAP : cas sociaux…
+                personnes démunies… familles sans ressources… communautés en détresse… en 1978 les ateliers alimentaires
+                : Pâtisserie et cuisine de spécialités libanaises font surface
+                Les ateliers continuent à être spécialement conçus pour des personnes à besoins spéciaux qui ne peuvent
+                pas s’insérer dans des structures professionnelles habituelles ou ordinaires. Ce sont des lieux de
+                travail protégés. Ils ont commencé et grandi pour répondre à des appels de travail et soutenir le budget
+                de l’IRAP.
+                La vente des produits assure un soutien à la vie de la communauté et au budget de prise en charge des
+                enfants et des adolescents sourds de l’institut.
             </p>
         </div>
     </div>
@@ -109,16 +110,16 @@
     {{-- DIV 5 --}}
 
 
-    <div class="row  container mt-5 m-auto" style="background-color: #EE7548;">
+    <div class="row  container mt-5 m-auto" style="background-image: url('asset('media/ray/Path 34.png')');">
         <div class="col-12 col-sm-8  " style=" text-align: -webkit-center;">
 
             <div class="col-12 col-sm-8 pt-5" style=" ">
                 <div
                     style="height:100%; background-color: white;max-height: 400px; min-height: 400px;    text-align: -webkit-left;   ">
-                    <div>
+                    <div  class="mt-5">
                         <h1 style="color: #212B59"> ACCUEIL </h1>
                     </div>
-                    <div>
+                    <div class="mt-5">
                         <p style="color:#F7BAA4">Lors du pèlerinage d'un groupe de handicapés du
                             Liban à Lourdes en 1960, deux jeunes filles
                             promettent de vivre l'expérience d'une fraternité

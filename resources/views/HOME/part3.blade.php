@@ -6,16 +6,15 @@
           <div class="row " data-aos="fade-up">
 
           <div class="section-title col-sm-6 col-12" data-aos="fade-up">
-            <h2>Portfolio</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <h1>Artisanat</h1>
           </div>
             <div class="  col-sm-6 col-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">Tout</li>
-                <li data-filter=".filter-app">Surgelés</li>
-                <li data-filter=".filter-card">Délices</li>
-                <li data-filter=".filter-web">Décoration</li>
-                <li data-filter=".filter-loisir">Loisirs</li>
+                <li data-filter="*" class="filter-active"><span>Tout</span> </li>
+                <li data-filter=".filter-app"><span>Surgelés</span></li>
+                <li data-filter=".filter-card"><span>Délices</span></li>
+                <li data-filter=".filter-web"><span>Décoration</span></li>
+                <li data-filter=".filter-loisir"><span>Loisirs</span></li>
               </ul>
             </div>
           </div>

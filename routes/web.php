@@ -21,6 +21,10 @@ Route::get('/', function () {
 Route::get('/home',function(){
 return view('HOME.index');
 })->name('home');
+Route::get('/home/related',function(){
+return view('HOME.related');
+})->name('home.related');
+
 
 Route::get('/quisommes', function () {
     return view('main.index');
@@ -38,6 +42,9 @@ Route::get('/blog', function () {
 Route::get('/lnstitut', function () {
     return view('Llnstitut.index');
 })->name('lnstitut');
+Route::get('/lnstitut/related', function () {
+    return view('Llnstitut.related');
+})->name('lnstitut.related');
 Route::get('/rayonnement', function () {
     return view('Rayonnement.index');
 })->name('rayonnement');
