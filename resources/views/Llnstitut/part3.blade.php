@@ -41,7 +41,7 @@
             </p>
         </div>
         <div >
-            <a class="btn text-white btn-lg" style=" background-color: #EE7548 ;border: 2px solid white">EXPLORER</a>
+            <a class="btn text-white btn-lg" href="{{route('home.related')}}" style=" background-color: #EE7548 ;border: 2px solid white">EXPLORER</a>
         </div>
     </div>
 

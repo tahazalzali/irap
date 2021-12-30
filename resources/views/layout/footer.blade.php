@@ -38,7 +38,6 @@
 integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 crossorigin="anonymous"></script>
   <!-- Vendor JS Files -->
-  <script type="text/javascript" src="{{ URL::asset('v') }}"></script>
   <script  type="text/javascript"  src="{{URL::asset('vendor/aos/aos.js')}}"></script>
   <script  type="text/javascript"  src="{{URL::asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   <script  type="text/javascript"  src="{{URL::asset('vendor/glightbox/js/glightbox.min.js')}}"></script>

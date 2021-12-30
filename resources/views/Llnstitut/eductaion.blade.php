@@ -25,7 +25,7 @@
             left:-60px;
             margin-top:35px;"><strong>EXPLORER</strong> </a>
         </div>
-        <form action="{{route('contact.store')}}" method="post" role="form" class="php-email-form m-auto row">
+        {{-- <form  method="post" role="form" class="php-email-form m-auto row">
             @csrf
             @method('POST')
             <div class="row col-md-6">
@@ -42,7 +42,7 @@
                       required>
                 </div>
             </div>
-        </form>
+        </form> --}}
     </div>
 </div>
 

@@ -27,7 +27,7 @@
             </p>
         </div>
         <div class="offset-1">
-            <a class="btn text-white btn-lg" style=" background-color: #EE7548 ;border: 2px solid white">EXPLORER</a>
+            <a class="btn text-white btn-lg" href="{{route('products.artisanat')}}" style=" background-color: #EE7548 ;border: 2px solid white">EXPLORER</a>
         </div>
     </div>
     <div class="col-12 col-sm-6 ">

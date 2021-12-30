@@ -6,7 +6,7 @@
           <div class="row " data-aos="fade-up">
 
           <div class="section-title col-sm-6 col-12" data-aos="fade-up">
-            <h1>Artisanat</h1>
+           <a href="{{route('product')}}" style="text-decoration: none"> <h1 style="color: #212B59" > NOS<strong> PRODUITS</strong></h1></a>
           </div>
             <div class="  col-sm-6 col-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
@@ -107,3 +107,11 @@
 
 
       </section><!-- End Portfolio Section -->
+
+      <script  type="text/javascript"  src="{{URL::asset('vendor/aos/aos.js')}}"></script>
+      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+
+      <script  type="text/javascript"  src="{{URL::asset('vendor/swiper/swiper-bundle.min.js')}}"></script>
+
+    <script src="{{asset('js/main. js')}}"></script>
