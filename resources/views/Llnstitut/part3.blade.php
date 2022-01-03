@@ -52,17 +52,15 @@
 
 <div class="row container m-auto text-white p-5" >
     <div>
-        <h1 class="text-center" style=" color: #212B59 ;   font-size:2.2vw">INFOS <strong style="color: #212B59">PRATIQUES</strong>
+        <h1 class="text-center" style=" color: #212B59 ">INFOS <strong style="color: #212B59">PRATIQUES</strong>
         </h1>
     </div>
-    <div class="text-center ml-3 mr-3 text-secondary " style="color: #838A84" >
+    <div class="text-center ml-3 mr-3 " style="color: #838A84" >
         <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry's standard dummy text ever since the 1500s, when an
             unknown printer took a galley of type and scrambled it to make a type specimen</h4>
 
     </div>
-    <div class="text-center">
-        <a class="btn text-white btn-lg" style=" color: #212B59 ;border: 2px solid white">EXPLORER</a>
-    </div>
+    
 </div>
 {{-- ENDPart 3 --}}

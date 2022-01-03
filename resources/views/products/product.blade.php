@@ -3,7 +3,7 @@
 
 
 
-    <div class="row container m-auto ">
+    <div class="row container m-auto "  style="position: relative" >
 
         <style>
             .num-block {

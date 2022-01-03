@@ -57,7 +57,7 @@
 
             </div>
             <div class="col-12 col-sm-6 ">
-                <div class="col-sm-6 col-12  ">
+                <div class="col-sm-6 col-12  " >
                     <h1><strong>L’équipe
 
                         </strong></h1>
