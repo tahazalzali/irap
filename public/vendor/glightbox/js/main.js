@@ -168,34 +168,6 @@
     });
   }
 
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 40
-      },
-
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 40
-      }
-    }
-  });
 
   /**
    * Porfolio isotope and filter
@@ -230,37 +202,37 @@
   /**
    * Initiate portfolio lightbox
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
+//   const portfolioLightbox = GLightbox({
+//     selector: '.portfolio-lightbox'
+//   });
 
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+//   new Swiper('.portfolio-details-slider', {
+//     speed: 400,
+//     loop: true,
+//     autoplay: {
+//       delay: 5000,
+//       disableOnInteraction: false
+//     },
+//     pagination: {
+//       el: '.swiper-pagination',
+//       type: 'bullets',
+//       clickable: true
+//     }
+//   });
 
   /**
    * Animation on scroll
    */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
+//   window.addEventListener('load', () => {
+//     AOS.init({
+//       duration: 1000,
+//       easing: 'ease-in-out',
+//       once: true,
+//       mirror: false
+//     })
+//   });
 
 })();

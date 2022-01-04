@@ -3,13 +3,13 @@
 
 
 
-    <div class="row container m-auto "  style="position: relative" >
+    <div class="row container m-auto " style="position: relative">
 
         <style>
             .num-block {
                 float: left;
                 width: 100%;
-                padding: 15px 30px;
+
             }
 
 
@@ -94,28 +94,287 @@
             </div>
             <div>
 
-                <div class="container d-block" style="position: relative"  >
-                    <div class="num-block skin-1" >
-                        <div class="num-in w-100" style="  border-top: 2px solid black;;">
+                <div class=" d-block mb-4 mt-4 ml-4 pl-4" style="position: relative">
+                    <div class="num-block skin-1">
+                        <div class="num-in w-100" style="  border-top: 2px solid black; border-bottom: 2px solid black;">
 
-                            <span class="ml-5 " style="    position: absolute; border-bottom: 2px solid black;
-                            ">
+                            <span class="ml-5 " style="    position: relative; float: left;
+                                    ">
                                 <p> 40*35 </p>
                             </span>
-                            <div style="    position: absolute; right: 0;
-                            ">
-                                <span class="minus dis" ></span>
+                            <div style="    position: relative; float: right;;">
+                                <span class="minus dis"></span>
                                 <input type="text" class="in-num" value="1" readonly=""
                                     style="background-color:#29335F;color:white; border-radius: 40%">
                                 <span class="plus"></span>
                             </div>
 
+
+                        </div>
+
+                    </div>
+
+                    <div class="d-block  " style="color: #212B59">
+                        <a class="btn text-white w-100 ml-4 mt-4 mb-4 " style=" background-color: #EE7548 ;">AJOUTER AU CHARIOT</a>
+                    </div>
+
+                    <div>
+                        <h1>
+                            Compléter le look
+                        </h1>
+                    </div>
+                    {{-- COROUSEL SLIDE --}}
+                    <div>
+                        <div id="productsCarousel" class="carousel slide container " data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item ml-4  active">
+                                    <!-- Products Div -->
+                                    <div class="container">
+                                        <div class="row">
+
+                                            <div class="col-12 col-md-6 col-sm-6  ">
+                                                <div class="card card-blog">
+                                                    <div class="card-body">
+                                                        <div class="card-img "
+                                                            style="text-align: center; min-height: 350px">
+                                                            <img src="{{ asset('media/home/2.png') }}"
+                                                                class="w-100 " />
+                                                            <div class="w-75">
+
+                                                                <div style="position: absolute;
+                                                                                width: 100%;
+                                                                                height: 110px;
+                                                                                z-index: auto;
+                                                                                margin: auto;
+                                                                                left: 10%; background-color:#212B59"
+                                                                    alt="tahaColors" class=" img-fluid w-75">
+                                                                    <p class="text-white p-3" >
+                                                                        SSOUS PLAT BLEU
+                                                                        30,000.00 LBP
+                                                                        40 x 35 cm</p>
+
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- End Products Div -->
+                                            </div>
+
+                                            <!-- Products Div -->
+                                            <div class="col-12 col-md-6 col-sm-6 ">
+                                                <div class="card card-blog">
+                                                    <div class="card-body">
+                                                        <div class="card-img "
+                                                            style="text-align: center; min-height: 350px">
+                                                            <img src="{{ asset('media/home/2.png') }}"
+                                                                class="w-100 " />
+                                                            <div class="w-75">
+
+                                                                <div style="position: absolute;
+                                                    width: 100%;
+                                                    height: 110px;
+                                                    z-index: auto;
+                                                    margin: auto;
+                                                    left: 10%; background-color:#212B59" alt="tahaColors"
+                                                                    class=" img-fluid w-75">
+                                                                    <p class="text-white p-3" >
+                                                                        SSOUS PLAT BLEU
+                                                                        30,000.00 LBP
+                                                                        40 x 35 cm</p>
+
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- End Products Div -->
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="carousel-item   ">
+                                    <!-- Products Div -->
+                                    <div class="container">
+                                        <div class="row">
+
+                                            <div class="col-12 col-md-6 col-sm-6  ">
+                                                <div class="card card-blog">
+                                                    <div class="card-body">
+                                                        <div class="card-img "
+                                                            style="text-align: center; min-height: 350px">
+                                                            <img src="{{ asset('media/home/2.png') }}"
+                                                                class="w-100 " />
+                                                            <div class="w-75">
+
+                                                                <div style="position: absolute;
+                                                                                width: 100%;
+                                                                                height: 110px;
+                                                                                z-index: auto;
+                                                                                margin: auto;
+                                                                                left: 10%; background-color:#212B59"
+                                                                    alt="tahaColors" class=" img-fluid w-75">
+                                                                    <p class="text-white p-3" >
+                                                                        SSOUS PLAT BLEU
+                                                                        30,000.00 LBP
+                                                                        40 x 35 cm</p>
+
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- End Products Div -->
+                                            </div>
+
+                                            <!-- Products Div -->
+                                            <div class="col-12 col-md-6 col-sm-6 ">
+                                                <div class="card card-blog">
+                                                    <div class="card-body">
+                                                        <div class="card-img "
+                                                            style="text-align: center; min-height: 350px">
+                                                            <img src="{{ asset('media/home/2.png') }}"
+                                                                class="w-100 " />
+                                                            <div class="w-75">
+
+                                                                <div style="position: absolute;
+                                                    width: 100%;
+                                                    height: 110px;
+                                                    z-index: auto;
+                                                    margin: auto;
+                                                    left: 10%; background-color:#212B59" alt="tahaColors"
+                                                                    class=" img-fluid w-75">
+                                                                    <p class="text-white p-3" >
+                                                                        SSOUS PLAT BLEU
+                                                                        30,000.00 LBP
+                                                                        40 x 35 cm</p>
+
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- End Products Div -->
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="carousel-item   container">
+                                    <!-- Products Div -->
+                                    <div class="container">
+                                        <div class="row">
+
+                                            <div class="col-12 col-md-6 col-sm-6  ">
+                                                <div class="card card-blog">
+                                                    <div class="card-body">
+                                                        <div class="card-img "
+                                                            style="text-align: center; min-height: 350px">
+                                                            <img src="{{ asset('media/home/2.png') }}"
+                                                                class="w-100 " />
+                                                            <div class="w-75">
+
+                                                                <div style="position: absolute;
+                                                                                width: 100%;
+                                                                                height: 110px;
+                                                                                z-index: auto;
+                                                                                margin: auto;
+                                                                                left: 10%; background-color:#212B59"
+                                                                    alt="tahaColors" class=" img-fluid w-75">
+                                                                    <p class="text-white p-3" >
+                                                                        SSOUS PLAT BLEU
+                                                                        30,000.00 LBP
+                                                                        40 x 35 cm</p>
+
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- End Products Div -->
+                                            </div>
+
+                                            <!-- Products Div -->
+                                            <div class="col-12 col-md-6 col-sm-6 ">
+                                                <div class="card card-blog">
+                                                    <div class="card-body">
+                                                        <div class="card-img "
+                                                            style="text-align: center; min-height: 350px">
+                                                            <img src="{{ asset('media/home/2.png') }}"
+                                                                class="w-100 " />
+                                                            <div class="w-75">
+
+                                                                <div style="position: absolute;
+                                                    width: 100%;
+                                                    height: 110px;
+                                                    z-index: auto;
+                                                    margin: auto;
+                                                    left: 10%; background-color:#212B59" alt="tahaColors"
+                                                                    class=" img-fluid w-75">
+                                                                    <p class="text-white p-3" >
+                                                                        SSOUS PLAT BLEU
+                                                                        30,000.00 LBP
+                                                                        40 x 35 cm</p>
+
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- End Products Div -->
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                            {{-- <button class="carousel-control-prev" type="button" data-bs-target="#productsCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button> --}}
+                            <button class="carousel-control-next" type="button" data-bs-target="#productsCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>
+                                <span class="visually-hidden ">Next</span>
+                            </button>
                         </div>
                     </div>
+
+                    {{-- END COROUSEL --}}
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -150,5 +409,5 @@
         // product +/-
     </script>
 
-  </div>
+    </div>
 @endsection

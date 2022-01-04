@@ -34,10 +34,10 @@
 
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script  src="{{asset('vendor/swiper/swiper-bundle.min.js')}}"></script>
+
 <script src="{{asset('vendor/isotope-layout/isotope.pkgd.js')}}"></script>
 
-<script src="{{asset('vendor/glightbox/js/main.js')}}"></script>
+
 
 <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 

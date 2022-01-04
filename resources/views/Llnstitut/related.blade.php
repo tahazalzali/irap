@@ -2,8 +2,8 @@
 @section('content')
 
     {{-- DIV 1 --}}
-    <div class="container">
-        <div class="col-sm-6 col-12 m-5 p-5 ">
+    <div class="container ml-0">
+        <div class="col-sm-6 col-12 m-5 pl-5 pt-5 pb-5 ">
             <h1>Une tradition:
                 Le travail à l’honneur.
                 Travailler pour vivre, avec et pour
@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        {{-- END DIV 2 --}}]
+        {{-- END DIV 2 --}}
     </div>
 
 

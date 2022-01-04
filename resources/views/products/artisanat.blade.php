@@ -41,11 +41,11 @@
                             <div class="w-75">
 
                                 <div style="position: absolute;
-                                    width: 100%;
-                                    height: 110px;
-                                    z-index: auto;
-                                    margin: auto;
-                                    left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
+                                        width: 100%;
+                                        height: 110px;
+                                        z-index: auto;
+                                        margin: auto;
+                                        left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
                                     <p class="text-white P-3" style="line-height: 50px">SSOUS PLAT BLEU
                                         30,000.00 LBP
                                         40 x 35 cm</p>
@@ -65,23 +65,14 @@
                     <div class="card-body">
                         <div class="card-img " style="text-align: center; min-height: 350px">
                             <img src="{{ asset('media/home/2.png') }}" class="w-100 " />
-
-
-
-
-
-
-
-
-
                             <div class="w-75">
 
                                 <div style="position: absolute;
-                                        width: 100%;
-                                        height: 110px;
-                                        z-index: auto;
-                                        margin: auto;
-                                        left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
+                                            width: 100%;
+                                            height: 110px;
+                                            z-index: auto;
+                                            margin: auto;
+                                            left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
                                     <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
                                         30,000.00 LBP
                                         40 x 35 cm</p>
@@ -116,11 +107,11 @@
                             <div class="w-75">
 
                                 <div style="position: absolute;
-                                        width: 100%;
-                                        height: 110px;
-                                        z-index: auto;
-                                        margin: auto;
-                                        left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
+                                            width: 100%;
+                                            height: 110px;
+                                            z-index: auto;
+                                            margin: auto;
+                                            left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
                                     <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
                                         30,000.00 LBP
                                         40 x 35 cm</p>
@@ -157,11 +148,11 @@
                             <div class="w-75">
 
                                 <div style="position: absolute;
-                                        width: 100%;
-                                        height: 110px;
-                                        z-index: auto;
-                                        margin: auto;
-                                        left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
+                                            width: 100%;
+                                            height: 110px;
+                                            z-index: auto;
+                                            margin: auto;
+                                            left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
                                     <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
                                         30,000.00 LBP
                                         40 x 35 cm</p>
@@ -194,11 +185,11 @@
                             <div class="w-75">
 
                                 <div style="position: absolute;
-                            width: 100%;
-                            height: 110px;
-                            z-index: auto;
-                            margin: auto;
-                            left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
+                                width: 100%;
+                                height: 110px;
+                                z-index: auto;
+                                margin: auto;
+                                left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
                                     <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
                                         30,000.00 LBP
                                         40 x 35 cm</p>
@@ -239,11 +230,12 @@
                             <div class="w-75">
 
                                 <div style="position: absolute;
-                                            width: 100%;
-                                            height: 110px;
-                                            z-index: auto;
-                                            margin: auto;
-                                            left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
+                                                width: 100%;
+                                                height: 110px;
+                                                z-index: auto;
+                                                margin: auto;
+                                                left: 10%; background-color:#212B59" alt="tahaColors"
+                                    class=" img-fluid w-75">
                                     <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
                                         30,000.00 LBP
                                         40 x 35 cm</p>

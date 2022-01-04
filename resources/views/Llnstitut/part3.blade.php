@@ -10,7 +10,7 @@
 
     </div>
     <div class="text-center">
-        <a class="btn text-white btn-lg" style=" background-color: #212B59 ;border: 2px solid white">EXPLORER</a>
+        <a class="btn text-white btn-lg" href="{{route('lnstitut.related')}}" style=" background-color: #212B59 ;border: 2px solid white">EXPLORER</a>
     </div>
 </div>
 {{-- part 2 --}}
@@ -61,6 +61,6 @@
             unknown printer took a galley of type and scrambled it to make a type specimen</h4>
 
     </div>
-    
+
 </div>
 {{-- ENDPart 3 --}}

@@ -34,8 +34,11 @@
     <div>
 
 <div id="carousel" class="carousel slide " data-bs-ride="carousel" style="background-color: #212B59">
-    <div class="carousel-inner container p-5">
 
+    <div class="carousel-inner container p-5">
+        <div>
+            <h1 style="color: #ffffff">NOS   <strong>SERVICES</strong> </h1>
+        </div>
         <div class="carousel-item  container active p-2  ">
             <div class="row">
             <div class="col-lg-3  col-md-4  d-flex mt-4 mb-4 align-items-stretch" style=" max-height: 100%">
