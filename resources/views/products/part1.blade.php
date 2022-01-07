@@ -38,7 +38,7 @@
 </div>
 {{-- DIV 3 --}}
 
-<div class="row container m-auto text-white p-5" style="background-color:#EE7548">
+<div class="row  m-auto text-white mt-4 p-5" style="background-color:#EE7548">
     <div>
         <h1 class="text-center" style="     font-size:2.2vw"><strong>SURGELÉS </strong> DE LIRAP
         </h1>
@@ -47,7 +47,7 @@
         <p>Lors du pėlerinage d'un groupe de handicapés du Liban å Lourdes en 1960, deux jeunes</p>
     </div>
     <div class="text-center">
-        <a class="btn text-white btn-lg" style=" background-color:#EE7548 ;border: 2px solid white">EXPLORER</a>
+        <a class="btn text-white btn-lg" href="{{route('products.artisanat')}}" style=" background-color:#EE7548 ;border: 2px solid white">EXPLORER</a>
     </div>
 </div>
 
@@ -55,7 +55,7 @@
 
 {{-- DIV 4 --}}
 
-<div class="row m-auto text-white pb-3">
+<div class="row m-auto text-white pb-3 mb-5">
 
     <div>
         <img src="{{ asset('media/kebbe.png') }}" class="w-100" alt="">
@@ -88,7 +88,7 @@
             </p>
         </div>
         <div class="offset-1">
-            <a class="btn text-white btn-lg" style=" background-color: #EE7548 ;border: 2px solid white">EXPLORER</a>
+            <a class="btn text-white btn-lg" href="{{route('products.artisanat')}}" style=" background-color: #EE7548 ;border: 2px solid white">EXPLORER</a>
         </div>
     </div>
 </div>

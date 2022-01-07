@@ -4,7 +4,7 @@
     use App\Http\Controllers\ContactController;
 @endphp
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact m-5">
         <div class="container" data-aos="fade-up">
             <div class="container">
                 <section class="border p-4 text-center mb-4">

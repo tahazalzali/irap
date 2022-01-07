@@ -48,9 +48,8 @@
                 </div>
                 <div class="card-body">
                     <div class="card-category-box">
-                        <div class="card-category">
-                            <h6 class="category">Date title </h6>
-                        </div>
+
+
                     </div>
                     <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
                     <p class="card-description">
@@ -89,11 +88,7 @@
 
                 </div>
                 <div class="card-body">
-                    <div class="card-category-box">
-                        <div class="card-category">
-                            <h6 class="category">Date title </h6>
-                        </div>
-                    </div>
+                    
                     <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
                     <p class="card-description">
                     <h1>Date details</h1>
@@ -130,9 +125,8 @@
                     </div>
                     <div class="card-body">
                         <div class="card-category-box">
-                            <div class="card-category">
-                                <h6 class="category">Date title </h6>
-                            </div>
+
+
                         </div>
                         <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
                         <p class="card-description">

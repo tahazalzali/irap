@@ -8,7 +8,8 @@
 
     img one
 
-     <img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}"
+    <a href="
+    #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}"
                         alt="">
 
 
@@ -42,19 +43,23 @@
         <div class="carousel-item  container active p-2  ">
             <div class="row">
             <div class="col-lg-3  col-md-4  d-flex mt-4 mb-4 align-items-stretch" style=" max-height: 100%">
-                <img style="" class="img-fluid w-100" src="{{ asset('media/services/service1.png') }}" alt="" />
+              <a href="
+              #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service1.png') }}" alt="" /></a>
             </div>
             {{-- IMG 2 --}}
             <div class="col-lg-3  col-md-4  d-flex mt-4 mb-4 align-items-stretch" style=" max-height: 100%">
-                <img style="" class="img-fluid w-100" src="{{ asset('media/services/service3.png') }}" alt="" />
+               <a href="
+               #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service3.png') }}" alt="" /></a>
             </div>
             {{-- IMG 3 --}}
             <div class="col-lg-3  col-md-4  d-flex mt-4 mb-4 " style=" max-height: 100%">
-                <img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}" alt="" />
+               <a href="
+               #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}" alt="" /></a>
             </div>
             {{-- IMG 4 --}}
             <div class="col-lg-3  col-md-4  d-flex mt-4 mb-4 " style=" max-height: 100%">
-                <img style="" class="img-fluid w-100" src="{{ asset('media/services/service4.png') }}" alt="" />
+               <a href="
+               #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service4.png') }}" alt="" /></a>
             </div>
 
         </div>
@@ -63,19 +68,23 @@
         <div class="carousel-item  container  ">
             <div class="row">
                 <div class="col-lg-3  col-md-4 d-flex mt-4 mb-4 align-items-stretch" style=" max-height: 100%">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service1.png') }}" alt="" />
+                   <a href="
+                   #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service1.png') }}" alt="" /></a>
                 </div>
                 {{-- IMG 2 --}}
                 <div class="col-lg-3  col-md-4 d-flex mt-4 mb-4 align-items-stretch" style=" max-height: 100%">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service3.png') }}" alt="" />
+                   <a href="
+                   #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service3.png') }}" alt="" /></a>
                 </div>
                 {{-- IMG 3 --}}
                 <div class="col-lg-3  col-md-4 d-flex mt-4 mb-4 " style=" max-height: 100%">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}" alt="" />
+                   <a href="
+                   #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}" alt="" /></a>
                 </div>
                 {{-- IMG 4 --}}
                 <div class="col-lg-3  col-md-4 d-flex mt-4 mb-4 " style=" max-height: 100%">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service4.png') }}" alt="" />
+                   <a href="
+                   #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service4.png') }}" alt="" /></a>
                 </div>
 
             </div>
@@ -84,19 +93,23 @@
         <div class="carousel-item  container  ">
             <div class="row">
                 <div class="col-lg-3  col-md-4 d-flex mt-4 mb-4 align-items-stretch" style=" max-height: 100%">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service1.png') }}" alt="" />
+                   <a href="
+                   #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service1.png') }}" alt="" /></a>
                 </div>
                 {{-- IMG 2 --}}
                 <div class="col-lg-3  col-md-4 d-flex mt-4 mb-4 align-items-stretch" style=" max-height: 100%">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service3.png') }}" alt="" />
+                   <a href="
+                   #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service3.png') }}" alt="" /></a>
                 </div>
                 {{-- IMG 3 --}}
                 <div class="col-lg-3  col-md-4 d-flex mt-4 mb-4 " style=" max-height: 100%">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}" alt="" />
+                   <a href="
+                   #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}" alt="" /></a>
                 </div>
                 {{-- IMG 4 --}}
                 <div class="col-lg-3  col-md-4 d-flex mt-4 mb-4 " style=" max-height: 100%">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service4.png') }}" alt="" />
+                   <a href="
+                   #"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service4.png') }}" alt="" /></a>
                 </div>
 
             </div>
@@ -110,5 +123,6 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
+
 </div>
 </div></div>

@@ -10,7 +10,8 @@
             <div class="col-lg-4  col-md-6 d-flex align-items-stretch" style=" max-height: 100%">
                 <div class="icon-box">
                     <div>
-                        <img style="" class="img-fluid w-100" src="{{ asset('media/services/service1.png') }}" alt="">
+                        <a href="{{ route('Llnstitut.eductaion') }}">
+                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service1.png') }}" alt=""></a>
 
                     </div>
                 </div>
@@ -18,14 +19,14 @@
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                 <div class="icon-box">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}" alt="">
+                   <a href="#"><img style="" class="img-fluid w-100" src="{{ asset('media/services/service2.png') }}" alt=""></a>
 
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                 <div class="icon-box">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service3.png') }}" alt="">
+                   <a href="#"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service3.png') }}" alt=""></a>
 
                 </div>
             </div>
@@ -33,21 +34,21 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
 
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service4.png') }}" alt="">
+                   <a href="#"><img style="" class="img-fluid w-100" src="{{ asset('media/services/service4.png') }}" alt=""></a>
 
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service5.png') }}" alt="">
+                   <a href="#"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service5.png') }}" alt=""></a>
 
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box">
-                    <img style="" class="img-fluid w-100" src="{{ asset('media/services/service6.png') }}" alt="">
+                    <a href="#"> <img style="" class="img-fluid w-100" src="{{ asset('media/services/service6.png') }}" alt=""></a>
 
                 </div>
 
@@ -84,7 +85,7 @@
                     temps scolaire.
                 </h5>
             </div>
-            <div style="text-align: center">    <a style="background-color: #EE7548; color:white" href="" style="  font-size:0.875em;
+            <div style="text-align: center">    <a style="background-color: #EE7548; color:white" href="#" style="  font-size:0.875em;
 
 
 

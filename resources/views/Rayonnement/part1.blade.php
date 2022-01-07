@@ -82,7 +82,7 @@
     {{-- END DIV 3 --}}
 
     {{-- DIV 4 --}}
-    <div class="row container m-auto" style="background-color: #EE7548">
+    <div class="rowcontainer m-auto" style="background-color: #EE7548">
         <div class="col-12 col-sm-10 m-auto ">
             <div>
                 <h1 style="color: #212B59"> HDF </h1>
@@ -110,7 +110,7 @@
     {{-- DIV 5 --}}
 
 
-    <div class="row  container mt-5 m-auto" style="background-image: url('asset('media/ray/Path 34.png')');">
+    <div class="row container mb-5 mt-5 m-auto" style="background-image: url('asset('media/ray/Path 34.png')');">
         <div class="col-12 col-sm-8  " style=" text-align: -webkit-center;">
 
             <div class="col-12 col-sm-8 pt-5" style=" ">
@@ -146,7 +146,7 @@
 
 
     {{-- DIV  6 --}}
-    <div class="row container mt-5 m-auto" style="background-color: #212B59">
+    <div class="row  mt-5 m-auto" style="background-color: #212B59">
         <div class="col-12 col-sm-10 m-auto ">
             <div>
                 <h1 style="color: white"> SUD </h1>
@@ -169,6 +169,31 @@
         </div>
     </div>
     {{-- END DIV 6 --}}
+
+    {{-- DIV  7 --}}
+    <div class="row  mt-5 m-auto mb-5" style="background-color: #212B59">
+        <div class="col-12 col-sm-10 m-auto ">
+            <div>
+                <h1 style="color: white"> SUD </h1>
+            </div>
+            <div style="height: 400px; background-color: #D8D8D8"></div>
+            <div style="height: 50px; background-color: white; line-height: 50px;">
+
+            </div>
+            <div class="mt-3">
+                <p style="color: white"><strong>Lorem Ipsum is simply dummy text of the printing and </strong> </p>
+            </div>
+            <div>
+                <p style="color:#9095AC">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an</p>
+            </div>
+            <div>
+                <a href="" style="background-color: white; color:#212B59" class="btn btn-lg m-1 p-3">VOIR L'ADRESSE</a>
+            </div>
+        </div>
+    </div>
+    {{-- END DIV 7 --}}
 
 
 

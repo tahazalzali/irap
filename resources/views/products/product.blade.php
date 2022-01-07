@@ -365,7 +365,7 @@
                             </button> --}}
                             <button class="carousel-control-next" type="button" data-bs-target="#productsCarousel"
                                 data-bs-slide="next">
-                                <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>
+                                <span class="carousel-control-next-icon text-dark" style="color: grey" aria-hidden="true"></span>
                                 <span class="visually-hidden ">Next</span>
                             </button>
                         </div>

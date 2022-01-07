@@ -26,6 +26,7 @@
 
 
 
+
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -72,8 +73,56 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> --}}
-            <i class="fas fa-search p-3"></i>
+            <form class="input-group rounded d-flex" style="max-width: 180px">
 
+                <span class="input-group-text border-0" id="search-addon">
+                    <button style="border:none"><i class="fas fa-search"></i></button>
+                    </span>
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                aria-describedby="search-addon" />
+
+              </form>
+
+              {{-- right elements  --}}
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <ul class="navbar-nav d-flex flex-row">
+                    <!-- Icons -->
+                    <li class="nav-item me-3 me-lg-0">
+                      <a class="nav-link" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                      </a>
+                    </li>
+                  
+                    <!-- Icon dropdown -->
+                    <li class="nav-item me-3 me-lg-0 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <i class="fas fa-user"></i>
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                          <a class="dropdown-item" href="#">Action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              {{-- DONATE route --}}
                 <a href="{{ route('donate.index') }}" style="color: white; background-color: #EE7548;" class="btn  {{  request()->routeIs('donate.index') ? 'd-none' : '' }} ">Donation </a>
 
           </div>

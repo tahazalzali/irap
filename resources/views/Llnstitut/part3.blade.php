@@ -1,6 +1,6 @@
-<div class="row container m-auto text-white p-5" style="background-color: #212B59">
+<div class="row  m-auto text-white p-5 " style="background-color: #212B59;min-height: 250px">
     <div>
-        <h1 class="text-center" style="     font-size:2.2vw"><strong>L'EQUIPE</strong> DE LIRAP
+        <h1 class="text-center"><strong>L'EQUIPE</strong> DE LIRAP
         </h1>
     </div>
     <div class="text-center ml-3 mr-3">
@@ -9,9 +9,7 @@
             unknown printer took a galley of type and scrambled it to make a type specimen</p>
 
     </div>
-    <div class="text-center">
-        <a class="btn text-white btn-lg" href="{{route('lnstitut.related')}}" style=" background-color: #212B59 ;border: 2px solid white">EXPLORER</a>
-    </div>
+
 </div>
 {{-- part 2 --}}
 <div class="row container m-auto p-5 m-5 ">
@@ -50,7 +48,7 @@
 
 {{-- Part 3 --}}
 
-<div class="row container m-auto text-white p-5" >
+<div class="row container m-auto text-white m-5 mt-5 mb-5" style="padding: 5rem">
     <div>
         <h1 class="text-center" style=" color: #212B59 ">INFOS <strong style="color: #212B59">PRATIQUES</strong>
         </h1>

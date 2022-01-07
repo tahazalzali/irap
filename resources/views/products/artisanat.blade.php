@@ -28,7 +28,8 @@
                 <div class="card card-blog">
                     <div class="card-body">
                         <div class="card-img " style="text-align: center; min-height: 350px">
-                            <img src="{{ asset('media/home/2.png') }}" class="w-100 " />
+                            <a href="{{ route('product') }}">
+                            <img src="{{ asset('media/home/2.png') }}" class="w-100 " /></a>
 
 
 
@@ -64,7 +65,7 @@
                 <div class="card card-blog">
                     <div class="card-body">
                         <div class="card-img " style="text-align: center; min-height: 350px">
-                            <img src="{{ asset('media/home/2.png') }}" class="w-100 " />
+                           <a href="#"> <img src="{{ asset('media/home/2.png') }}" class="w-100 " /></a>
                             <div class="w-75">
 
                                 <div style="position: absolute;
@@ -94,48 +95,7 @@
                 <div class="card card-blog">
                     <div class="card-body">
                         <div class="card-img " style="text-align: center; min-height: 350px">
-                            <img src="{{ asset('media/home/3.png') }}" class="w-100 " />
-
-
-
-
-
-
-
-
-
-                            <div class="w-75">
-
-                                <div style="position: absolute;
-                                            width: 100%;
-                                            height: 110px;
-                                            z-index: auto;
-                                            margin: auto;
-                                            left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
-                                    <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
-                                        30,000.00 LBP
-                                        40 x 35 cm</p>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- End Products Div -->
-
-
-
-
-
-            <!-- Products Div -->
-            <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-                <div class="card card-blog">
-                    <div class="card-body">
-                        <div class="card-img " style="text-align: center; min-height: 350px">
-                            <img src="{{ asset('media/home/4.png') }}" class="w-100 " />
+                           <a href="#"> <img src="{{ asset('media/home/3.png') }}" class="w-100 " /></a>
 
 
 
@@ -167,12 +127,53 @@
             </div>
             <!-- End Products Div -->
 
+
+
+
+
             <!-- Products Div -->
             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                 <div class="card card-blog">
                     <div class="card-body">
                         <div class="card-img " style="text-align: center; min-height: 350px">
-                            <img src="{{ asset('media/home/5.png') }}" class="w-100 " />
+                           <a href="#"> <img src="{{ asset('media/home/4.png') }}" class="w-100 " /></a>
+
+
+
+
+
+
+
+
+
+                            <div class="w-75">
+
+                                <div style="position: absolute;
+                                            width: 100%;
+                                            height: 110px;
+                                            z-index: auto;
+                                            margin: auto;
+                                            left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
+                                    <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
+                                        30,000.00 LBP
+                                        40 x 35 cm</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Products Div -->
+
+            <!-- Products Div -->
+            <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                <div class="card card-blog">
+                    <div class="card-body">
+                        <div class="card-img " style="text-align: center; min-height: 350px">
+                           <a href="#"> <img src="{{ asset('media/home/5.png') }}" class="w-100 " /></a>
 
 
 
@@ -217,7 +218,7 @@
                 <div class="card card-blog">
                     <div class="card-body">
                         <div class="card-img " style="text-align: center; min-height: 350px">
-                            <img src="{{ asset('media/home/6.png') }}" class="w-100 " />
+                           <a href="#"> <img src="{{ asset('media/home/6.png') }}" class="w-100 " /></a>
 
 
 
