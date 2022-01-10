@@ -87,7 +87,7 @@
                 l'expérience d'une fraternité réelle
             </p>
         </div>
-        <div class="offset-1">
+        <div >
             <a class="btn text-white btn-lg" href="{{route('products.artisanat')}}" style=" background-color: #EE7548 ;border: 2px solid white">EXPLORER</a>
         </div>
     </div>

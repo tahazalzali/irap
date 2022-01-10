@@ -38,82 +38,92 @@
 
 
 
-<div class="row container m-auto">
+        <div class="row container m-auto">
 
-        {{-- div 2 --}}
-        <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-            <div class="card card-blog">
-                <div class="card-img " style="text-align: center;">
-
-                </div>
-                <div class="card-body">
-                    <div class="card-category-box">
-
+            {{-- div 2 --}}
+            <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                <div class="card card-blog">
+                    <div class="card-img " style="text-align: center;">
 
                     </div>
-                    <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
-                    <p class="card-description">
-                    <h1>Date details</h1>
-                    </p>
-                    <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
-                    <div class="card-body d-flex ">
-                        <div class="post-author  w-100" style="text-align: -webkit-center;">
-                            <div  class="w-75" >
-                                <div style="position: absolute;
-                                width: 100%;
-                                height: auto;
-                                z-index: auto;
-                                margin: auto;
-                                left: 10%; background-color:#FBBD51" alt="" class=" img-fluid w-75">
-                                <h2 class="text-white">1962
-                                   </h2>
-                                <p> Idée de mieux servir</p>
+                    <div class="card-body">
+                        <div class="card-category-box">
+
+
+                        </div>
+                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/"
+                                target="_blank"> </a></h3>
+                        <p class="card-description">
+                        <h1>Date details</h1>
+                        </p>
+                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient
+                            sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais
+                            et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent
+                            à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du
+                            marginalisé, </p>
+                        <div class="card-body d-flex ">
+                            <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                <div class="w-75">
+                                    <div style="position: absolute;
+                                    width: 100%;
+                                    height: auto;
+                                    z-index: auto;
+                                    margin: auto;
+                                    left: 10%; background-color:#FBBD51" alt="" class=" img-fluid w-75">
+                                        <h2 class="text-white">1962
+                                        </h2>
+                                        <p> Idée de mieux servir</p>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
-
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
             <!-- End Date Div -->
 
 
 
-         <!-- Date Div -->
-         <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-            <div class="card card-blog">
-                <div class="card-img " style="text-align: center;">
-
-                </div>
-                <div class="card-body">
-                    
-                    <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
-                    <p class="card-description">
-                    <h1>Date details</h1>
-                    </p>
-                    <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
-                    <div class="card-body d-flex ">
-                        <div class="post-author  w-100" style="text-align: -webkit-center;">
-                            <div  class="w-75" >
-                                <div style="position: absolute;
-                                width: 100%;
-                                height: auto;
-                                z-index: auto;
-                                margin: auto;
-                                left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
-                                <h2 class="text-white">1960</h2>
-                                <p>Fraternité des malades du Liban</p>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Date Div -->
+            <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                <div class="card card-blog">
+                    <div class="card-img " style="text-align: center;">
 
                     </div>
-                </div>
+                    <div class="card-body">
 
+                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/"
+                                target="_blank"> </a></h3>
+                        <p class="card-description">
+                        <h1>Date details</h1>
+                        </p>
+                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient
+                            sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais
+                            et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent
+                            à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du
+                            marginalisé, </p>
+                        <div class="card-body d-flex ">
+                            <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                <div class="w-75">
+                                    <div style="position: absolute;
+                                    width: 100%;
+                                    height: auto;
+                                    z-index: auto;
+                                    margin: auto;
+                                    left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
+                                        <h2 class="text-white">1960</h2>
+                                        <p>Fraternité des malades du Liban</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
             <!-- End Date Div -->
 
 
@@ -128,23 +138,28 @@
 
 
                         </div>
-                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
+                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/"
+                                target="_blank"> </a></h3>
                         <p class="card-description">
                         <h1>Date details</h1>
                         </p>
-                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
+                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient
+                            sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais
+                            et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent
+                            à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du
+                            marginalisé, </p>
                         <div class="card-body d-flex ">
                             <div class="post-author  w-100" style="text-align: -webkit-center;">
-                                <div  class="w-75" >
+                                <div class="w-75">
                                     <div style="position: absolute;
-                                    width: 100%;
-                                    height: auto;
-                                    z-index: auto;
-                                    margin: auto;
-                                    left: 10%; background-color:#FBBD51" alt="" class=" img-fluid w-75">
-                                    <h2 class="text-white">1962
-                                       </h2>
-                                    <p> Idée de mieux servir</p>
+                                        width: 100%;
+                                        height: auto;
+                                        z-index: auto;
+                                        margin: auto;
+                                        left: 10%; background-color:#FBBD51" alt="" class=" img-fluid w-75">
+                                        <h2 class="text-white">1962
+                                        </h2>
+                                        <p> Idée de mieux servir</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,15 +169,73 @@
 
                 </div>
             </div>
-                <!-- End Date Div -->
+            <!-- End Date Div -->
+{{-- DATE div --}}
 
 
 
-                <div class="text-center mt-3 mb-3 pt-3 pb-1">
-                    <a style="background-color: #EE7548; color:white" href="" class="btn btn-lg p-3 mt-5">VOIR PLUS DE SIGNE</a>
+<div class="col-md-4 mt-5 pt-5 mb-2 pb-2 tohide">
+    <div class="card card-blog">
+        <div class="card-img " style="text-align: center;">
+
+        </div>
+        <div class="card-body">
+            <div class="card-category-box">
+
+
+            </div>
+            <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
+            <p class="card-description">
+            <h1>Date details</h1>
+            </p>
+            <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
+            <div class="card-body d-flex ">
+                <div class="post-author  w-100" style="text-align: -webkit-center;">
+                    <div  class="w-75" >
+                        <div style="position: absolute;
+                        width: 100%;
+                        height: auto;
+                        z-index: auto;
+                        margin: auto;
+                        left: 10%; background-color:#FBBD51" alt="" class=" img-fluid w-75">
+                        <h2 class="text-white">1962
+                           </h2>
+                        <p> Idée de mieux servir</p>
+                        </div>
+                    </div>
                 </div>
-    </div>
+
+            </div>
+        </div>
 
     </div>
+</div>
+    <!-- End Date Div -->
+
+            <div class="text-center mt-3 mb-3 pt-3 pb-1">
+                <a style="background-color: #EE7548; color:white "onclick="showIt()" id="showplus" class="btn btn-lg p-3 mt-5">VOIR
+                    PLUS DE SIGNE</a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script>
+          $(document).ready{
+              ()=>{
+                  (".tohide").hide();
+              }
+          }
+        $(document).ready(
+
+            function showIt() {
+                $("#showplus").click(function() {
+                    $(".musicinfo").show("slow");
+                });
+
+            });
+    </script>
 
 @endsection

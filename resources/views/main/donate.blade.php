@@ -24,7 +24,7 @@
                     <div class=" row form-group mt-3">
                         <label style="text-align: initial;"  for="daonate">Montant de Donation /$</label>
 
-                        <input type="number" class="form-control" name="amount" id="daonate"
+                        <input type="number" onkeyup="if(this.value<0){this.value= this.value * -1}" onkeypress="return event.charCode >= 48" min="1" class="form-control" name="amount" id="daonate"
                             placeholder="Montant de Donation" >
                     </div>
                 </div>

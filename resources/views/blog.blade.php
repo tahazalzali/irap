@@ -15,229 +15,28 @@
                 </div>
             </div>
         </div>
-        <!-- Blog Div -->
-        <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+
+
+
+
+          <!-- Blog Div -->
+          <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
             <div class="card card-blog">
                 <div class="card-img " style="text-align: center;">
 
                 </div>
                 <div class="card-body">
                     <div class="card-category-box">
-                        <div class="card-category">
-                            <h6 class="category">Blog title </h6>
-                        </div>
+
                     </div>
                     <h3 class="card-title" style="z-index: auto;"></h3>
                     <p class="card-description">
-                    <h1>Blog details</h1>
+                    <h1>Blog Title</h1>
                     </p>
                     <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
-                    <div class="card-body d-flex ">
-                        <div class="post-author  w-100" style="text-align: -webkit-center;">
-                            <div  class="w-75" >
-                                <div style="position: absolute;
-                                width: 100%;
-                                height: auto;
-                                z-index: auto;
-                                margin: auto;
-                                left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
-                                <h2 class="text-white">1960</h2>
-                                <p>Fraternité des malades du Liban</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-             <!-- Blog Div -->
-             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-                <div class="card card-blog">
-                    <div class="card-img " style="text-align: center;">
-
-                    </div>
-                    <div class="card-body">
-                        <div class="card-category-box">
-                            <div class="card-category">
-                                <h6 class="category">Blog title </h6>
-                            </div>
-                        </div>
-                        <h3 class="card-title" style="z-index: auto;"></h3>
-                        <p class="card-description">
-                        <h1>Blog details</h1>
-                        </p>
-                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
-                        <div class="card-body d-flex ">
-                            <div class="post-author  w-100" style="text-align: -webkit-center;">
-                                <div  class="w-75" >
-                                    <div style="position: absolute;
-                                    width: 100%;
-                                    height: auto;
-                                    z-index: auto;
-                                    margin: auto;
-                                    left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
-                                    <h2 class="text-white">1962
-                                       </h2>
-                                    <p> Fraternité des malades du Liban</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-                <!-- End Blog Div -->
-
-
-
-             <!-- Blog Div -->
-             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-                <div class="card card-blog">
-                    <div class="card-img " style="text-align: center;">
-
-                    </div>
-                    <div class="card-body">
-                        <div class="card-category-box">
-                            <div class="card-category">
-                                <h6 class="category">Blog title </h6>
-                            </div>
-                        </div>
-                        <h3 class="card-title" style="z-index: auto;"></h3>
-                        <p class="card-description">
-                        <h1>Blog details</h1>
-                        </p>
-                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
-                        <div class="card-body d-flex ">
-                            <div class="post-author  w-100" style="text-align: -webkit-center;">
-                                <div  class="w-75" >
-                                    <div style="position: absolute;
-                                    width: 100%;
-                                    height: auto;
-                                    z-index: auto;
-                                    margin: auto;
-                                    left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
-                                    <h2 class="text-white">1960</h2>
-                                    <p>Fraternité des malades du Liban</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-                <!-- End Blog Div -->
-
-
-
-
-
-             <!-- Blog Div -->
-             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-                <div class="card card-blog">
-                    <div class="card-img " style="text-align: center;">
-
-                    </div>
-                    <div class="card-body">
-                        <div class="card-category-box">
-                            <div class="card-category">
-                                <h6 class="category">Blog title </h6>
-                            </div>
-                        </div>
-                        <h3 class="card-title" style="z-index: auto;"></h3>
-                        <p class="card-description">
-                        <h1>Blog details</h1>
-                        </p>
-                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
-                        <div class="card-body d-flex ">
-                            <div class="post-author  w-100" style="text-align: -webkit-center;">
-                                <div  class="w-75" >
-                                    <div style="position: absolute;
-                                    width: 100%;
-                                    height: auto;
-                                    z-index: auto;
-                                    margin: auto;
-                                    left: 10%; background-color: #212B59" alt="" class=" img-fluid w-75">
-                                    <h2 class="text-white">1960</h2>
-                                    <p>Fraternité des malades du Liban</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-                <!-- End Blog Div -->
-
- <!-- Blog Div -->
- <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-             <div class="card card-blog">
-        <div class="card-img " style="text-align: center;">
-
-        </div>
-        <div class="card-body">
-            <div class="card-category-box">
-                <div class="card-category">
-                    <h6 class="category">Blog title </h6>
-                </div>
-            </div>
-            <h3 class="card-title" style="z-index: auto;"></h3>
-            <p class="card-description">
-            <h1>Blog details</h1>
-            </p>
-            <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
-            <div class="card-body d-flex ">
-                <div class="post-author  w-100" style="text-align: -webkit-center;">
-                    <div  class="w-75" >
-                        <div style="position: absolute;
-                        width: 100%;
-                        height: auto;
-                        z-index: auto;
-                        margin: auto;
-                        left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
-                        <h2 class="text-white">1960</h2>
-                        <p>Fraternité des malades du Liban</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-</div>
-    <!-- End Blog Div -->
-
-
-
-
-
-
-                 <!-- Blog Div -->
-        <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-            <div class="card card-blog">
-                <div class="card-img " style="text-align: center;">
-                    
-                </div>
-                <div class="card-body">
-                    <div class="card-category-box">
-                        <div class="card-category">
-                            <h6 class="category">Blog title </h6>
-                        </div>
-                    </div>
-                    <h3 class="card-title" style="z-index: auto;"></h3>
-                    <p class="card-description">
-                    <h1>Blog details</h1>
-                    </p>
-                    <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
+                    <div class="card-image">
+                        <img src="{{asset('media/dish1.jpg')}}" style="max-height: 300px" class="w-100" alt="">
+                                                 </div>
                     <div class="card-body d-flex ">
                         <div class="post-author  w-100" style="text-align: -webkit-center;">
                             <div  class="w-75" >
@@ -247,8 +46,8 @@
                                 z-index: auto;
                                 margin: auto;
                                 left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
-                                <h2 class="text-white">1960</h2>
-                                <p>Fraternité des malades du Liban</p>
+                                <h2 class="text-white" style="line-height: 2.5">1960</h2>
+
                                 </div>
                             </div>
                         </div>
@@ -258,9 +57,228 @@
 
             </div>
         </div>
-        <div class="text-center mt-3 mb-3 pt-3 pb-1">
+            <!-- End Blog Div -->
 
-    </div>
+
+
+             <!-- Blog Div -->
+             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                <div class="card card-blog">
+                    <div class="card-img " style="text-align: center;">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+
+                        </div>
+                        <h3 class="card-title" style="z-index: auto;"></h3>
+                        <p class="card-description">
+                        <h1>Blog Title</h1>
+                        </p>
+                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
+                        <div class="card-image">
+                            <img src="{{asset('media/products/2/image.png
+                            ')}}" style="max-height: 300px" class="w-100" alt="">
+                                                     </div>
+                        <div class="card-body d-flex ">
+                            <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                <div  class="w-75" >
+                                    <div style="position: absolute;
+                                    width: 100%;
+                                    height: auto;
+                                    z-index: auto;
+                                    margin: auto;
+                                    left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
+                                    <h2 class="text-white" style="line-height: 2.5">1960</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                <!-- End Blog Div -->
+
+
+
+
+
+
+
+             <!-- Blog Div -->
+             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                <div class="card card-blog">
+                    <div class="card-img " style="text-align: center;">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+
+                        </div>
+                        <h3 class="card-title" style="z-index: auto;"></h3>
+                        <p class="card-description">
+                        <h1>Blog Title</h1>
+                        </p>
+                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
+                        <div class="card-image">
+                            <img src="{{asset('media/home/Mask Group 1.png')}}"  style="max-height: 300px" class="w-100" alt="">
+                                                     </div>
+                        <div class="card-body d-flex ">
+                            <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                <div  class="w-75" >
+                                    <div style="position: absolute;
+                                    width: 100%;
+                                    height: auto;
+                                    z-index: auto;
+                                    margin: auto;
+                                    left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
+                                    <h2 class="text-white" style="line-height: 2.5">1960</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                <!-- End Blog Div -->
+
+
+             <!-- Blog Div -->
+             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                <div class="card card-blog">
+                    <div class="card-img " style="text-align: center;">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+
+                        </div>
+                        <h3 class="card-title" style="z-index: auto;"></h3>
+                        <p class="card-description">
+                        <h1>Blog Title</h1>
+                        </p>
+                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
+                        <div class="card-image">
+                            <img src="{{asset('media/dish1.jpg')}}" style="max-height: 300px" class="w-100" alt="">
+                                                     </div>
+                        <div class="card-body d-flex ">
+                            <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                <div  class="w-75" >
+                                    <div style="position: absolute;
+                                    width: 100%;
+                                    height: auto;
+                                    z-index: auto;
+                                    margin: auto;
+                                    left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
+                                    <h2 class="text-white" style="line-height: 2.5">1960</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                <!-- End Blog Div -->
+
+
+
+
+
+
+             <!-- Blog Div -->
+             <div class="col-md-4 mt-5 pt-5 mb-5 pb-5">
+                <div class="card card-blog">
+                    <div class="card-img " style="text-align: center;">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+
+                        </div>
+                        <h3 class="card-title" style="z-index: auto;"></h3>
+                        <p class="card-description">
+                        <h1>Blog Title</h1>
+                        </p>
+                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
+                        <div class="card-image">
+                            <img src="{{asset('media/dish1.jpg')}}" style="max-height: 300px" class="w-100" alt="">
+                                                     </div>
+                        <div class="card-body d-flex ">
+                            <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                <div  class="w-75" >
+                                    <div style="position: absolute;
+                                    width: 100%;
+                                    height: auto;
+                                    z-index: auto;
+                                    margin: auto;
+                                    left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
+                                    <h2 class="text-white" style="line-height: 2.5">1960</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                <!-- End Blog Div -->
+
+
+
+
+
+
+             <!-- Blog Div -->
+             <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                <div class="card card-blog">
+                    <div class="card-img " style="text-align: center;">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+
+                        </div>
+                        <h3 class="card-title" style="z-index: auto;"></h3>
+                        <p class="card-description">
+                        <h1>Blog Title</h1>
+                        </p>
+                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
+                        <div class="card-image">
+                            <img src="{{asset('media/dish1.jpg')}}" style="max-height: 300px" class="w-100" alt="">
+                                                     </div>
+                        <div class="card-body d-flex ">
+                            <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                <div  class="w-75" >
+                                    <div style="position: absolute;
+                                    width: 100%;
+                                    height: auto;
+                                    z-index: auto;
+                                    margin: auto;
+                                    left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
+                                    <h2 class="text-white" style="line-height: 2.5">1960</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                <!-- End Blog Div -->
+
 
 
 

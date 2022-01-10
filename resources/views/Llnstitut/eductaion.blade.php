@@ -19,12 +19,15 @@
                  l’enfant et de le préparer à la scolarisation.
             </p>
         </div>
-        <div class="mt-4 mb-4">
+
+        {{-- Button  --}}
+        {{-- <div class="mt-4 mb-4">
             <a class="btn text-white btn-lg p-2" style=" background-color: #6DB7E8 ;border: 2px solid white; width: 40%;  font-size:0.9em;
             display:block;
             left:-60px;
             margin-top:35px;"><strong>EXPLORER</strong> </a>
-        </div>
+        </div> --}}
+        {{-- LOGIN FORM --}}
         {{-- <form  method="post" role="form" class="php-email-form m-auto row">
             @csrf
             @method('POST')

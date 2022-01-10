@@ -5,74 +5,6 @@
 
     <div class="row container m-auto " style="position: relative">
 
-        <style>
-            .num-block {
-                float: left;
-                width: 100%;
-
-            }
-
-
-            .skin-1 .num-in {
-                float: left;
-                width: 94px;
-            }
-
-            .skin-1 .num-in span {
-                display: block;
-                float: left;
-                width: 30px;
-                height: 32px;
-                line-height: 32px;
-                text-align: center;
-                position: relative;
-                cursor: pointer;
-            }
-
-            .skin-1 .num-in span.dis:before {
-                background-color: #ccc !important;
-            }
-
-            .skin-1 .num-in input {
-                float: left;
-                width: 32px;
-                height: 32px;
-                border: 1px solid #6E6F7A;
-                border-radius: 5px;
-                color: #000;
-                text-align: center;
-                padding: 0;
-            }
-
-            .skin-1 .num-in span.minus:before {
-                content: '';
-                position: absolute;
-                width: 15px;
-                height: 2px;
-                background-color: #00A94F;
-                top: 50%;
-                left: 0;
-            }
-
-            .skin-1 .num-in span.plus:before,
-            .skin-1 .num-in span.plus:after {
-                content: '';
-                position: absolute;
-                right: 0px;
-                width: 15px;
-                height: 2px;
-                background-color: #00A94F;
-                top: 50%;
-            }
-
-            .skin-1 .num-in span.plus:after {
-                -webkit-transform: rotate(90deg);
-                -ms-transform: rotate(90deg);
-                -o-transform: rotate(90deg);
-                transform: rotate(90deg);
-            }
-
-        </style>
 
         <div class="col-12 col-sm-6 ">
             <div>
@@ -81,11 +13,16 @@
 
 
         </div>
+
         <div class="col-12 col-sm-6 ">
-            <div class="col-sm-6 col-12  ">
+            <div class="col-12 col-sm-8 ">
+
                 <h1><strong>PATISSERIE
-                    </strong></h1>
-                <h1>DE LIRAP </h1>
+                </strong>DE LIRAP </h1>
+
+            </div>
+            <div class="col-sm-6 col-12  ">
+
                 <p>Lors du pėlerinage d'un groupe de
                     handicapés du Liban à Lourdes en 1960
                     deux jeunes filles promettent de vivre
@@ -408,6 +345,75 @@
         });
         // product +/-
     </script>
+
+<style>
+    .num-block {
+        float: left;
+        width: 100%;
+
+    }
+
+
+    .skin-1 .num-in {
+        float: left;
+        width: 94px;
+    }
+
+    .skin-1 .num-in span {
+        display: block;
+        float: left;
+        width: 30px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .skin-1 .num-in span.dis:before {
+        background-color: #ccc !important;
+    }
+
+    .skin-1 .num-in input {
+        float: left;
+        width: 32px;
+        height: 32px;
+        border: 1px solid #6E6F7A;
+        border-radius: 5px;
+        color: #000;
+        text-align: center;
+        padding: 0;
+    }
+
+    .skin-1 .num-in span.minus:before {
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 2px;
+        background-color: #00A94F;
+        top: 50%;
+        left: 0;
+    }
+
+    .skin-1 .num-in span.plus:before,
+    .skin-1 .num-in span.plus:after {
+        content: '';
+        position: absolute;
+        right: 0px;
+        width: 15px;
+        height: 2px;
+        background-color: #00A94F;
+        top: 50%;
+    }
+
+    .skin-1 .num-in span.plus:after {
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+</style>
 
     </div>
 @endsection

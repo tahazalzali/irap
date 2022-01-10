@@ -4,10 +4,10 @@
     use App\Http\Controllers\ContactController;
 @endphp
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact m-5">
+    <section id="contact" class="contact mt-5 mb-5">
         <div class="container" data-aos="fade-up">
             <div class="container">
-                <section class="border p-4 text-center mb-4">
+                <section class="border  pb-4 pt-4 text-center mb-4">
                     <section class="text-center">
                         <div class="m-3 p-3">
                             <h3> <strong> COORDONNÉES </strong>DE LIRAP</h3>
@@ -24,7 +24,7 @@
                         <!--Grid row-->
                         <div class="row">
                             <!--Grid column-->
-                            <div class="col-lg-4 col-md-12 mb-4">
+                            <div class="col-lg-4 col-md-6  mb-4">
                                 <h5 class="text-warning">Addresse</h5>
 
 
@@ -33,9 +33,12 @@
 
 
                                 <p>
-                                    Ain Aar- B.P 15, Metn Nord, Liban<br>
-                                    https://googl/maps/NPjBRWBZ19n
+                                    Ain Aar- B.P 15, Metn Nord, Liban
+
                                 </p>
+
+                                <a href="https://googl/maps/NPjBRWBZ19n">https://googl/maps/NPjBRWBZ19n</a>
+
                             </div>
                             <!--Grid column-->
 

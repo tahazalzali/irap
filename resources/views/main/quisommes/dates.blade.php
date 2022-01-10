@@ -26,9 +26,9 @@
                     </div>
                     <div class="card-body">
                         <div class="card-category-box">
-                            <div class="card-category">
+                            {{-- <div class="card-category">
                                 <h6 class="category">Date title </h6>
-                            </div>
+                            </div> --}}
                         </div>
                         <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
                         <p class="card-description">
@@ -44,8 +44,9 @@
                                     z-index: auto;
                                     margin: auto;
                                     left: 10%; background-color:#EE7548" alt="tahaColors" class=" img-fluid w-75">
-                                    <h2 class="text-white">1960</h2>
-                                    <p>Fraternité des malades du Liban</p>
+                                    <h2 class="text-white"  style="
+                                    line-height: 2.5">1960</h2>
+
                                     </div>
                                 </div>
                             </div>
@@ -64,9 +65,7 @@
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
-                                <div class="card-category">
-                                    <h6 class="category">Date title </h6>
-                                </div>
+
                             </div>
                             <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
                             <p class="card-description">
@@ -82,9 +81,10 @@
                                         z-index: auto;
                                         margin: auto;
                                         left: 10%; background-color:#FBBD51" alt="" class=" img-fluid w-75">
-                                        <h2 class="text-white">1962
+                                        <h2 class="text-white"  style="
+                                    line-height: 2.5">1962
                                            </h2>
-                                        <p> Idée de mieux servir</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -106,9 +106,7 @@
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
-                                <div class="card-category">
-                                    <h6 class="category">Date title </h6>
-                                </div>
+
                             </div>
                             <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
                             <p class="card-description">
@@ -124,8 +122,9 @@
                                         z-index: auto;
                                         margin: auto;
                                         left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
-                                        <h2 class="text-white">1960</h2>
-                                        <p>Fraternité des malades du Liban</p>
+                                        <h2 class="text-white"  style="
+                                    line-height: 2.5">1960</h2>
+
                                         </div>
                                     </div>
                                 </div>
@@ -149,9 +148,7 @@
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
-                                <div class="card-category">
-                                    <h6 class="category">Date title </h6>
-                                </div>
+
                             </div>
                             <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
                             <p class="card-description">
@@ -167,8 +164,8 @@
                                         z-index: auto;
                                         margin: auto;
                                         left: 10%; background-color:#EFB587" alt="" class=" img-fluid w-75">
-                                        <h2 class="text-white">1960</h2>
-                                        <p>Fraternité des malades du Liban</p>
+                                        <h2 class="text-white"  style="
+                                    line-height: 2.5">1960</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -184,13 +181,11 @@
      <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
                  <div class="card card-blog">
             <div class="card-img " style="text-align: center;">
-             
+
             </div>
             <div class="card-body">
                 <div class="card-category-box">
-                    <div class="card-category">
-                        <h6 class="category">Date title </h6>
-                    </div>
+
                 </div>
                 <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
                 <p class="card-description">
@@ -206,8 +201,8 @@
                             z-index: auto;
                             margin: auto;
                             left: 10%; background-color:#86C2EB" alt="" class=" img-fluid w-75">
-                            <h2 class="text-white">1960</h2>
-                            <p>Fraternité des malades du Liban</p>
+                            <h2 class="text-white"  style="
+                                    line-height: 2.5">1960</h2>
                             </div>
                         </div>
                     </div>
@@ -232,9 +227,7 @@
                     </div>
                     <div class="card-body">
                         <div class="card-category-box">
-                            <div class="card-category">
-                                <h6 class="category">Date title </h6>
-                            </div>
+
                         </div>
                         <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
                         <p class="card-description">
@@ -250,8 +243,8 @@
                                     z-index: auto;
                                     margin: auto;
                                     left: 10%; background-color:#F28C5C" alt="" class=" img-fluid w-75">
-                                    <h2 class="text-white">1960</h2>
-                                    <p>Fraternité des malades du Liban</p>
+                                    <h2 class="text-white"  style="
+                                    line-height: 2.5">1960</h2>
                                     </div>
                                 </div>
                             </div>

@@ -21,6 +21,9 @@ Route::get('/', function () {
 Route::get('/home',function(){
 return view('HOME.index');
 })->name('home');
+Route::get('/',function(){
+return view('HOME.index');
+})->name('home');
 Route::get('/home/related',function(){
 return view('HOME.related');
 })->name('home.related');
@@ -65,3 +68,9 @@ Route::get('/education', function () {
     return view('Llnstitut.eductaion');
 })->name('Llnstitut.eductaion');
 
+
+
+
+Route::get('/cart', function () {
+    return view('cart');
+})->name('cart');
