@@ -39,7 +39,7 @@
 
 
 
-    <div class="col-12 col-sm-5 text-center" style="display: inline-block; position: relative;">
+    <div class="col-12 col-sm-6 text-center" style="display: inline-block; position: relative;">
         <div>
             <section class=" col-12" style="position: relative; min-height: 300px">
 
@@ -50,7 +50,7 @@
                     style="z-index:1; top:100px; height: 220px;width:250px  ;left:27%;background-color:#FFAD3A">
                     <div class="col-9 m-auto ">
                         <h1 style="color: #212B59">
-                            “</h1>
+                            <strong>“</strong></h1>
 
                         <p class="text-white" style="line-height: 1">
                             Option de foi, Vie de famille, Service du handicapé, du marginalisé,
@@ -95,7 +95,7 @@
 {{-- Dates MAIN div --}}
 <div>
     <div>
-        <section class="cd-horizontal-timeline">
+        <section class="cd-horizontal-timeline" style="padding:0">
             <div class="timeline">
                 <div class="events-wrapper">
                     <div class="events">
@@ -307,7 +307,7 @@ Main Components
 -------------------------------- */
     .cd-horizontal-timeline {
         opacity: 0;
-        margin: 2em auto;
+
         -webkit-transition: opacity 0.2s;
         -moz-transition: opacity 0.2s;
         transition: opacity 0.2s;

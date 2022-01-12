@@ -47,9 +47,14 @@
                                         z-index: auto;
                                         margin: auto;
                                         left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
-                                    <p class="text-white P-3" style="line-height: 50px">SSOUS PLAT BLEU
+                                   <div class="text-white " class="pt-1"><h4 >
+                                        SSOUS PLAT BLEU
+
+                                    </h4>
+                                    <p>
                                         30,000.00 LBP
-                                        40 x 35 cm</p>
+                                    </p>
+                                     <p> 40 x 35 cm</p> </div>
 
                                 </div>
                             </div>
@@ -118,9 +123,14 @@
                                             z-index: auto;
                                             margin: auto;
                                             left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
-                                    <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
+                                   <div class="text-white " class="pt-1"><h4 >
+                                        SSOUS PLAT BLEU
+
+                                    </h4>
+                                    <p>
                                         30,000.00 LBP
-                                        40 x 35 cm</p>
+                                    </p>
+                                     <p> 40 x 35 cm</p> </div>
 
                                 </div>
                             </div>
@@ -159,9 +169,14 @@
                                             z-index: auto;
                                             margin: auto;
                                             left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
-                                    <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
+                                   <div class="text-white " class="pt-1"><h4 >
+                                        SSOUS PLAT BLEU
+
+                                    </h4>
+                                    <p>
                                         30,000.00 LBP
-                                        40 x 35 cm</p>
+                                    </p>
+                                     <p> 40 x 35 cm</p> </div>
 
                                 </div>
                             </div>
@@ -196,9 +211,14 @@
                                 z-index: auto;
                                 margin: auto;
                                 left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
-                                    <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
+                                   <div class="text-white " class="pt-1"><h4 >
+                                        SSOUS PLAT BLEU
+
+                                    </h4>
+                                    <p>
                                         30,000.00 LBP
-                                        40 x 35 cm</p>
+                                    </p>
+                                     <p> 40 x 35 cm</p> </div>
 
                                 </div>
                             </div>
@@ -242,9 +262,14 @@
                                                 margin: auto;
                                                 left: 10%; background-color:#212B59" alt="tahaColors"
                                     class=" img-fluid w-75">
-                                    <p class="text-white p-3" style="line-height: 50px">SSOUS PLAT BLEU
+                                   <div class="text-white " class="pt-1"><h4 >
+                                        SSOUS PLAT BLEU
+
+                                    </h4>
+                                    <p>
                                         30,000.00 LBP
-                                        40 x 35 cm</p>
+                                    </p>
+                                     <p> 40 x 35 cm</p> </div>
 
                                 </div>
                             </div>

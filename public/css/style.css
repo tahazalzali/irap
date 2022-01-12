@@ -1,13 +1,4 @@
-/**
-* Template Name: Maxim - v4.7.0
-* Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
 
   font-family: "Open Sans", sans-serif;
@@ -492,7 +483,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #4ae3c6;
+  color: #EE7548;;
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;

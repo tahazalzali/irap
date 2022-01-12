@@ -83,7 +83,7 @@
 
     {{-- DIV 4 --}}
     <div class="rowcontainer m-auto" style="background-color: #EE7548">
-        <div class="col-12 col-sm-10 m-auto ">
+        <div class="col-12 col-sm-10 container m-auto ">
             <div>
                 <h1 style="color: #212B59"> HDF </h1>
             </div>
@@ -146,8 +146,8 @@
 
 
     {{-- DIV  6 --}}
-    <div class="row  mt-5 m-auto" style="background-color: #212B59">
-        <div class="col-12 col-sm-10 m-auto ">
+    <div class=" m-auto" style="background-color: #212B59">
+        <div class="col-12 col-sm-10 container pl-3 pr-3 m-auto ">
             <div>
                 <h1 style="color: white"> SUD </h1>
             </div>
@@ -168,30 +168,41 @@
             </div>
         </div>
     </div>
+
+
     {{-- END DIV 6 --}}
 
     {{-- DIV  7 --}}
-    <div class="row  mt-5 m-auto mb-5" style="background-color: #212B59">
-        <div class="col-12 col-sm-10 m-auto ">
-            <div>
-                <h1 style="color: white"> SUD </h1>
-            </div>
-            <div style="height: 400px; background-color: #D8D8D8"></div>
-            <div style="height: 50px; background-color: white; line-height: 50px;">
+    <div class="row container mb-5 mt-5 m-auto" style="background-image: url('asset('media/ray/Path 34.png')');">
+        <div class="col-12 col-sm-8  " style=" text-align: -webkit-center;">
 
+            <div class="col-12 col-sm-8 pt-5" style=" ">
+                <div
+                    style="height:100%; background-color: white;max-height: 400px; min-height: 400px;    text-align: -webkit-left;   ">
+                    <div  class="mt-5">
+                        <h1 style="color: #212B59"> ACCUEIL </h1>
+                    </div>
+                    <div class="mt-5">
+                        <p style="color:#F7BAA4">Lors du pèlerinage d'un groupe de handicapés du
+                            Liban à Lourdes en 1960, deux jeunes filles
+                            promettent de vivre l'expérience d'une fraternité
+                            réelle solidaires sous un même toit.</p>
+                    </div>
+                    <div>
+                        <a href="" style="color: white; background-color:#EE7548" class="btn btn-lg m-1 p-3">VOIR
+                            L'ADRESSE</a>
+                    </div>
+                </div>
             </div>
-            <div class="mt-3">
-                <p style="color: white"><strong>Lorem Ipsum is simply dummy text of the printing and </strong> </p>
-            </div>
-            <div>
-                <p style="color:#9095AC">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an</p>
-            </div>
-            <div>
-                <a href="" style="background-color: white; color:#212B59" class="btn btn-lg m-1 p-3">VOIR L'ADRESSE</a>
-            </div>
+
+
+
         </div>
+        <div class="offset-1 col-9  col-sm-3 mt-5 mb-5" style="background-color: #D8D8D8;height: 400px;">
+
+
+        </div>
+
     </div>
     {{-- END DIV 7 --}}
 

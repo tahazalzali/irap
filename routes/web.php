@@ -59,6 +59,9 @@ Route::get('/products', function () {
 Route::get('/product', function () {
     return view('products.product');
 })->name('product');
+Route::get('/productt', function () {
+    return view('product.index');
+})->name('productt');
 
 Route::get('/aritsanat', function () {
     return view('products.artisanat');

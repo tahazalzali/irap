@@ -36,9 +36,7 @@
                     En 1963, s’ouvre la première classe spécialisée pour sourds, d’avant-garde à l’époque.
                 </p>
             </div>
-                <div style="color: #212B59">
-                    <a class="btn text-white btn-lg" style=" background-color: #EE7548 ;">VOIR PLUS</a>
-                </div>
+               
         </div>
 
     </div>

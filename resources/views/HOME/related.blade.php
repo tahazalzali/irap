@@ -1,6 +1,12 @@
 @extends('layout.app')
 @section('content')
     <div>
+        <style>
+
+.hideme {
+  display: none;
+}
+        </style>
         {{-- DIV 1 --}}
         <div class="row container m-auto p-5 m-5 ">
 
@@ -36,184 +42,136 @@
         </div>
 
 
+       {{-- div 2 --}}
 
+        <div class="row container m-auto" >
 
-        <div class="row container m-auto">
+<div  id="toappend" class="row">
 
-            {{-- div 2 --}}
-            <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-                <div class="card card-blog">
-                    <div class="card-img " style="text-align: center;">
+                          <!-- Date Div -->
+                          <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                            <div class="card card-blog">
+                                <div class="card-img " style="text-align: center;">
 
-                    </div>
-                    <div class="card-body">
-                        <div class="card-category-box">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-category-box">
 
+                                    </div>
+                                    <h3 class="card-title" style="z-index: auto;"></h3>
+                                    <p class="card-description">
+                                    <h1>Date Title</h1>
+                                    </p>
+                                          <div class="card-img"><img src="{{asset('media/products/2/image.png')}}" class="w-100" alt=""></div>
 
-                        </div>
-                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/"
-                                target="_blank"> </a></h3>
-                        <p class="card-description">
-                        <h1>Date details</h1>
-                        </p>
-                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient
-                            sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais
-                            et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent
-                            à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du
-                            marginalisé, </p>
-                        <div class="card-body d-flex ">
-                            <div class="post-author  w-100" style="text-align: -webkit-center;">
-                                <div class="w-75">
-                                    <div style="position: absolute;
-                                    width: 100%;
-                                    height: auto;
-                                    z-index: auto;
-                                    margin: auto;
-                                    left: 10%; background-color:#FBBD51" alt="" class=" img-fluid w-75">
-                                        <h2 class="text-white">1962
-                                        </h2>
-                                        <p> Idée de mieux servir</p>
+                                    <div class="card-body d-flex ">
+                                        <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                            <div  class="w-75" >
+                                                <div style="position: absolute;
+                                                width: 100%;
+                                                height: auto;
+                                                z-index: auto;
+                                                margin: auto;
+                                                left: 10%; background-color:#F28C5C" alt="" class=" img-fluid w-75">
+                                                <h2 class="text-white"  style="
+                                                line-height: 2.5">1960</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
+
                             </div>
-
                         </div>
-                    </div>
-
-                </div>
-            </div>
             <!-- End Date Div -->
 
 
 
-            <!-- Date Div -->
-            <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-                <div class="card card-blog">
-                    <div class="card-img " style="text-align: center;">
+                          <!-- Date Div -->
+                          <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                            <div class="card card-blog">
+                                <div class="card-img " style="text-align: center;">
 
-                    </div>
-                    <div class="card-body">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-category-box">
 
-                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/"
-                                target="_blank"> </a></h3>
-                        <p class="card-description">
-                        <h1>Date details</h1>
-                        </p>
-                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient
-                            sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais
-                            et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent
-                            à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du
-                            marginalisé, </p>
-                        <div class="card-body d-flex ">
-                            <div class="post-author  w-100" style="text-align: -webkit-center;">
-                                <div class="w-75">
-                                    <div style="position: absolute;
-                                    width: 100%;
-                                    height: auto;
-                                    z-index: auto;
-                                    margin: auto;
-                                    left: 10%; background-color:#212B59" alt="" class=" img-fluid w-75">
-                                        <h2 class="text-white">1960</h2>
-                                        <p>Fraternité des malades du Liban</p>
+                                    </div>
+                                    <h3 class="card-title" style="z-index: auto;"></h3>
+                                    <p class="card-description">
+                                    <h1>Date Title</h1>
+                                    </p>
+                                          <div class="card-img"><img src="{{asset('media/products/2/image.png')}}" class="w-100" alt=""></div>
+
+                                    <div class="card-body d-flex ">
+                                        <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                            <div  class="w-75" >
+                                                <div style="position: absolute;
+                                                width: 100%;
+                                                height: auto;
+                                                z-index: auto;
+                                                margin: auto;
+                                                left: 10%; background-color:#F28C5C" alt="" class=" img-fluid w-75">
+                                                <h2 class="text-white"  style="
+                                                line-height: 2.5">1960</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
+
                             </div>
-
                         </div>
-                    </div>
-
-                </div>
-            </div>
             <!-- End Date Div -->
 
 
 
-            <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
-                <div class="card card-blog">
-                    <div class="card-img " style="text-align: center;">
 
-                    </div>
-                    <div class="card-body">
-                        <div class="card-category-box">
+                          <!-- Date Div -->
+                          <div class="col-md-4 mt-5 pt-5 mb-2 pb-2">
+                            <div class="card card-blog">
+                                <div class="card-img " style="text-align: center;">
 
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-category-box">
 
-                        </div>
-                        <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/"
-                                target="_blank"> </a></h3>
-                        <p class="card-description">
-                        <h1>Date details</h1>
-                        </p>
-                        <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient
-                            sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais
-                            et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent
-                            à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du
-                            marginalisé, </p>
-                        <div class="card-body d-flex ">
-                            <div class="post-author  w-100" style="text-align: -webkit-center;">
-                                <div class="w-75">
-                                    <div style="position: absolute;
-                                        width: 100%;
-                                        height: auto;
-                                        z-index: auto;
-                                        margin: auto;
-                                        left: 10%; background-color:#FBBD51" alt="" class=" img-fluid w-75">
-                                        <h2 class="text-white">1962
-                                        </h2>
-                                        <p> Idée de mieux servir</p>
+                                    </div>
+                                    <h3 class="card-title" style="z-index: auto;"></h3>
+                                    <p class="card-description">
+                                    <h1>Date Title</h1>
+                                    </p>
+                                          <div class="card-img"><img src="{{asset('media/products/2/image.png')}}" class="w-100" alt=""></div>
+
+                                    <div class="card-body d-flex ">
+                                        <div class="post-author  w-100" style="text-align: -webkit-center;">
+                                            <div  class="w-75" >
+                                                <div style="position: absolute;
+                                                width: 100%;
+                                                height: auto;
+                                                z-index: auto;
+                                                margin: auto;
+                                                left: 10%; background-color:#F28C5C" alt="" class=" img-fluid w-75">
+                                                <h2 class="text-white"  style="
+                                                line-height: 2.5">1960</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
+
                             </div>
-
                         </div>
-                    </div>
-
-                </div>
-            </div>
             <!-- End Date Div -->
-{{-- DATE div --}}
 
 
-
-<div class="col-md-4 mt-5 pt-5 mb-2 pb-2 tohide">
-    <div class="card card-blog">
-        <div class="card-img " style="text-align: center;">
-
-        </div>
-        <div class="card-body">
-            <div class="card-category-box">
-
-
-            </div>
-            <h3 class="card-title" style="z-index: auto;"><a href="https://tahazalzali.github.io/fitness/" target="_blank"> </a></h3>
-            <p class="card-description">
-            <h1>Date details</h1>
-            </p>
-            <p>Tout au long de son parcours, le petit foyer comme la grande institution d'aujourd'hui s'appuient sur la Providence qui ne cesse de s'exprimer à travers la générosité de nombreux amis libanais et étrangers. Les valeurs humaines et spirituelles fondent l'action de tous ceux qui participent à l'oæuvre et assurent son rayonnement : Option de foi, Vie de famille, Service du handicapé, du marginalisé, </p>
-            <div class="card-body d-flex ">
-                <div class="post-author  w-100" style="text-align: -webkit-center;">
-                    <div  class="w-75" >
-                        <div style="position: absolute;
-                        width: 100%;
-                        height: auto;
-                        z-index: auto;
-                        margin: auto;
-                        left: 10%; background-color:#FBBD51" alt="" class=" img-fluid w-75">
-                        <h2 class="text-white">1962
-                           </h2>
-                        <p> Idée de mieux servir</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
 </div>
-    <!-- End Date Div -->
 
             <div class="text-center mt-3 mb-3 pt-3 pb-1">
-                <a style="background-color: #EE7548; color:white "onclick="showIt()" id="showplus" class="btn btn-lg p-3 mt-5">VOIR
+                <a style="background-color: #EE7548; color:white " id="showBtn"  onclick="extraTicketAttachment();" class="btn btn-lg p-3 mt-5">VOIR
                     PLUS DE SIGNE</a>
             </div>
         </div>
@@ -223,19 +181,22 @@
     </div>
 
     <script>
-          $(document).ready{
-              ()=>{
-                  (".tohide").hide();
-              }
-          }
-        $(document).ready(
-
-            function showIt() {
-                $("#showplus").click(function() {
-                    $(".musicinfo").show("slow");
-                });
-
-            });
+// $('.showBtn').click(function() {
+  //$('.hideme').hide();
+//   if ($(this).hasClass('active')) {
+//     $(this).removeClass('active');
+//     $('.hideme').slideUp();
+//   } else {
+//     $('.hideme').slideUp();
+//     $('.showBtn').removeClass('active');
+//     $(this).addClass('active');
+//     $(this).next().filter('.hideme').slideDown();
+//   }
+// });
+//IMPORTANT Just check the card if working then make it on only one line then paste it below the code 
+function extraTicketAttachment(){
+  jQuery("#toappend").append('<div class="col-md-4 mt-5 pt-5 mb-2 pb-2"><div class="card card-blog"><div class="card-img " style="text-align: center;"></div><div class="card-body"> <div class="card-category-box"></div> <h3 class="card-title" style="z-index: auto;"></h3><p class="card-description"> <h1>Date Title</h1></p><div class="card-img"><img src="{{asset("media/products/2/image.png")}}" class="w-100" alt=""></div> <div class="card-body d-flex "> <div class="post-author  w-100" style="text-align: -webkit-center;"> <div  class="w-75" ><div style="position: absolute;width: 100%;height: auto;z-index: auto;margin: auto;left: 10%; background-color:#F28C5C" alt="" class=" img-fluid w-75"><h2 class="text-white"  style="line-height: 2.5">1960</h2></div></div></div></div></div></div></div>  <div class="col-md-4 mt-5 pt-5 mb-2 pb-2"><div class="card card-blog"><div class="card-img " style="text-align: center;"></div><div class="card-body"> <div class="card-category-box"></div> <h3 class="card-title" style="z-index: auto;"></h3><p class="card-description"> <h1>Date Title</h1></p><div class="card-img"><img src="{{asset("media/products/2/image.png")}}" class="w-100" alt=""></div> <div class="card-body d-flex "> <div class="post-author  w-100" style="text-align: -webkit-center;"> <div  class="w-75" ><div style="position: absolute;width: 100%;height: auto;z-index: auto;margin: auto;left: 10%; background-color:#F28C5C" alt="" class=" img-fluid w-75"><h2 class="text-white"  style="line-height: 2.5">1960</h2></div></div></div></div></div></div></div>   <div class="col-md-4 mt-5 pt-5 mb-2 pb-2"><div class="card card-blog"><div class="card-img " style="text-align: center;"></div><div class="card-body"> <div class="card-category-box"></div> <h3 class="card-title" style="z-index: auto;"></h3><p class="card-description"> <h1>Date Title</h1></p><div class="card-img"><img src="{{asset("media/products/2/image.png")}}" class="w-100" alt=""></div> <div class="card-body d-flex "> <div class="post-author  w-100" style="text-align: -webkit-center;"> <div  class="w-75" ><div style="position: absolute;width: 100%;height: auto;z-index: auto;margin: auto;left: 10%; background-color:#F28C5C" alt="" class=" img-fluid w-75"><h2 class="text-white"  style="line-height: 2.5">1960</h2></div></div></div></div></div></div></div>  ');
+}
     </script>
 
 @endsection
