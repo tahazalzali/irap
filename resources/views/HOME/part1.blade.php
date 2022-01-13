@@ -39,7 +39,7 @@
 
 
 
-    <div class="col-12 col-sm-6 text-center" style="display: inline-block; position: relative;">
+    <div class="col-12 col-sm-6 offset-1 text-center" style="display: inline-block; position: relative;">
         <div>
             <section class=" col-12" style="position: relative; min-height: 300px">
 
@@ -62,7 +62,7 @@
 
 
     </div>
-    <div class="col-12 col-sm-6 ">
+    <div class="col-12 col-sm-5 ">
         <div class="col-sm-6 col-12  ">
             <h1><strong>PATISSERIE
                 </strong></h1>

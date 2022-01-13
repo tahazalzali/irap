@@ -19,7 +19,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-
+<link rel="stylesheet" href="{{asset('css/search.css')}}">
 
 
 
@@ -100,13 +100,16 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> --}}
-                <form class="input-group rounded d-flex" method="GET"  style="max-width: 180px">
+                <form class="input-group rounded d-flex search-box" method="GET"  style="max-width: 180px">
 
-                    <span class="input-group-text border-0" id="search-addon">
+                    <span class="input-group-text border-0 search-btn" id="search-addon">
                         <button style="border:none"><i class="fas fa-search"></i></button>
                     </span>
+
                     <input type="submit" id="sbbtn" />
-                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+
+
+                    <input type="search" class="form-control rounded search-txt" placeholder="Search" aria-label="Search"
                         aria-describedby="search-addon" />
 
                 </form>
