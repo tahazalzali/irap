@@ -50,11 +50,15 @@
             </div>
             <div class="col-sm-6 col-12  ">
 
-                <p>Lors du pėlerinage d'un groupe de
-                    handicapés du Liban à Lourdes en 1960
-                    deux jeunes filles promettent de vivre
-                    l'expérience d'une fraternité réelle
+
+                <h4>
+                    Lors du pėlerinage
+                </h4>
+                <p>
+                    d'un groupe de
+                    handicapés du Liban
                 </p>
+                <p>  l'expérience d'une fraternité réelle</p>
             </div>
             <div>
 
@@ -177,6 +181,11 @@
                                 <a>Size guide</a>
                             </div>
                         </div>
+
+                    <div class="container">
+                    
+
+                    </div>
                         <!-- <form method="post" enctype="multipart/form-data" id="AddToCartForm"> -->
                         {{-- <form id="AddToCartForm">
                             <select name="id" id="productSelect" quickbeam="product"
@@ -612,7 +621,7 @@
                             </div>
                             <!-- End Products Div -->
                             <!-- Products Div -->
-                            <div class="col-md-4 mt-4 pt-4  ">
+                            <div class="col-md-4 mt-4 pt-4   ">
                                 <div class="card card-blog">
                                     <div class="card-body">
                                         <div class="card-img " style="text-align: center; min-height: 450px">

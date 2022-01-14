@@ -100,19 +100,7 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> --}}
-                <form class="input-group rounded d-flex search-box" method="GET"  style="max-width: 180px">
 
-                    <span class="input-group-text border-0 search-btn" id="search-addon">
-                        <button style="border:none"><i class="fas fa-search"></i></button>
-                    </span>
-
-                    <input type="submit" id="sbbtn" />
-
-
-                    <input type="search" class="form-control rounded search-txt" placeholder="Search" aria-label="Search"
-                        aria-describedby="search-addon" />
-
-                </form>
                 <style>
                     .form-control:focus {
                         border-color: #EE7548;
@@ -120,42 +108,67 @@
                         box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
                     }
                     #sbbtn{display:none;}
+                    #rightnav li{
+                      padding-right: 7px;
 
+                    }
                 </style>
-                {{-- right elements --}}
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <ul class="navbar-nav d-flex flex-row">
-                            <!-- Icons -->
-                            <li class="nav-item me-3 me-lg-0">
-                                <a class="nav-link" href="#">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fas fa-user"></i>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Logout</a>
 
-                                </div>
-
-                            </li>
-
-
-                        </ul>
-                    </div>
-                </nav>
-                {{-- DONATE route --}}
-                <a href="{{ route('donate.index') }}" style="color: white; background-color: #EE7548;"
-                    class="btn  {{ request()->routeIs('donate.index') ? 'd-none' : '' }} ">Donation </a>
 
             </div>
         </div>
+        {{-- Out of collapse --}}
+     {{-- right elements --}}
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed" id="rightnav">
+        <div class="container-fluid">
+            <ul class="navbar-nav d-flex flex-row">
+                <!-- Icons -->
+
+                <li>
+
+                    <form>
+                        <div class="animated-search">
+                          <input type="search" id="animated-input">
+                          <a href="#">
+                            <i class="fas fa-search" id="searchBtn"></i>
+                          </a>
+                        </div>
+                      </form>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Logout</a>
+
+                    </div>
+
+                </li>
+
+
+            </ul>
+            <a href="{{ route('donate.index') }}" style="color: white; background-color: #EE7548;"
+            class="btn  {{ request()->routeIs('donate.index') ? 'd-none' : '' }} ">Donation </a>
+
+        </div>
+
+
+
+
     </nav>
+    </nav>
+    {{-- DONATE route --}}
+
 
 </header>
 
 <body style="background-color:white; margin-left: 0 !important;margin-right: 0 !important;">
+
+

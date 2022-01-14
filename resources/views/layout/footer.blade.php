@@ -51,6 +51,22 @@ crossorigin="anonymous"></script>
 @section('js')
 @endsection
 
+<script>
+    const searchBtn = document.querySelector('#searchBtn');
+const animatedInput = document.querySelector('#animated-input');
 
+searchBtn.addEventListener('click', openSearch);
+
+function openSearch(e) {
+  animatedInput.focus();
+}
+
+// Check if there is text in input every 50ms
+setInterval(function() {
+  if (animatedInput.value) {
+    animatedInput.style.width = '225px';
+  }
+}, 50);
+</script>
 </body>
 </html>

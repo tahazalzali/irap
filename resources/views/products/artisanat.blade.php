@@ -43,7 +43,7 @@
 
                                 <div style="position: absolute;
                                         width: 100%;
-                                        height: 110px;
+                                        height: 120px;
                                         z-index: auto;
                                         margin: auto;
                                         left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
@@ -75,7 +75,7 @@
 
                                 <div style="position: absolute;
                                             width: 100%;
-                                            height: 110px;
+                                            height: 120px;
                                             z-index: auto;
                                             margin: auto;
                                             left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
@@ -119,7 +119,7 @@
 
                                 <div style="position: absolute;
                                             width: 100%;
-                                            height: 110px;
+                                            height: 120px;
                                             z-index: auto;
                                             margin: auto;
                                             left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
@@ -165,7 +165,7 @@
 
                                 <div style="position: absolute;
                                             width: 100%;
-                                            height: 110px;
+                                            height: 120px;
                                             z-index: auto;
                                             margin: auto;
                                             left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
@@ -207,7 +207,7 @@
 
                                 <div style="position: absolute;
                                 width: 100%;
-                                height: 110px;
+                                height: 120px;
                                 z-index: auto;
                                 margin: auto;
                                 left: 10%; background-color:#212B59" alt="tahaColors" class=" img-fluid w-75">
@@ -257,7 +257,7 @@
 
                                 <div style="position: absolute;
                                                 width: 100%;
-                                                height: 110px;
+                                                height: 120px;
                                                 z-index: auto;
                                                 margin: auto;
                                                 left: 10%; background-color:#212B59" alt="tahaColors"
