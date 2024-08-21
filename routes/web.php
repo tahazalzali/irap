@@ -22,10 +22,11 @@ Route::get('/home', function () {
     return view('main.index');
 })->name('home');
 
-
-
-Route::resource('/donate','App\Http\Controllers\DonationController')->name('donate','donate');
-Route::resource('/contact','App\Http\Controllers\ContactController');
+Route::resource('/donate', 'App\Http\Controllers\DonationController')->name(
+    'donate',
+    'donate'
+);
+Route::resource('/contact', 'App\Http\Controllers\ContactController');
 
 Route::get('/blog', function () {
     return view('blog');

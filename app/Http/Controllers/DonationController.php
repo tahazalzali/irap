@@ -34,19 +34,18 @@ class DonationController extends Controller
      */
     function store(Request $request)
     {
-       $request->validate([
-           'name'=>'required',
-           'lastname'=>'required',
+        $request->validate([
+            'name' => 'required',
+            'lastname' => 'required',
 
-             'amount' => 'required|numeric',
+            'amount' => 'required|numeric',
+        ]);
 
-       ]);
-
-       $donation= Donation::create($request->all());
-       return redirect()->route('home')->with('success','Donation created successfully');
-
-
- }
+        $donation = Donation::create($request->all());
+        return redirect()
+            ->route('home')
+            ->with('success', 'Donation created successfully');
+    }
     /**
      * Display the specified resource.
      *

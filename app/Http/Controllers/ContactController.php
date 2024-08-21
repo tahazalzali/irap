@@ -14,7 +14,7 @@ class ContactController extends Controller
      */
     public function index()
     {
-       return view('main.contact');
+        return view('main.contact');
     }
 
     /**
@@ -36,13 +36,14 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            "name"=>"required",
-            "lastname"=>"required",
-            "subject"=>"required",
-
+            "name" => "required",
+            "lastname" => "required",
+            "subject" => "required",
         ]);
-        $contact=Contact::create($request->all());
-         return redirect()->route('contact.index')->with('success','Contact created successfully');
+        $contact = Contact::create($request->all());
+        return redirect()
+            ->route('contact.index')
+            ->with('success', 'Contact created successfully');
     }
 
     /**
